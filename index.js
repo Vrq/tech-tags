@@ -11,7 +11,7 @@ module.exports = {
     , "Mobile", "MongoDB", "MySQL", "NextJS", "Nexus", "Nginx", "NodeJS", "NuxtJS", "ODI", "OSS", "Objective-C", "Office365", "OpenShift",
     "Oracle", "PHP", "PL SQL", "PWA", "PaaS", "Perl", "Phoenix", "Pimcore", "Play Framework", "Polymer", "PostgreSQL", "Prometheus", "Puppet",
     "Python", "Qt", "Quarkus", "RDF", "REST", "RHEL", "RPA", "RSpec", "RabbitMQ", "Rails", "React", "React Native", "Redgate", "Redis",
-    "Redux", "Ruby", "Rust", "RxJs", "SAML", "SAP", "SASS", "SCSS", "SOAP", "SQL", "SQLite", "SailsJS", "Salesforce", "Scala", "Scrum", "Security",
+    "Redux", "Remote Work", "Ruby", "Rust", "RxJs", "SAML", "SAP", "SASS", "SCSS", "SOAP", "SQL", "SQLite", "SailsJS", "Salesforce", "Scala", "Scrum", "Security",
     "Selenium", "Sentry", "SharePoint", "Sketch", "Solr", "Sonar", "Spark", "Spring", "Spring Boot", "Swift", "Swing", "Symfony",
     "System Engineer", "TDD", "TSQL", "TYPO3", "Teamcity", "TensorFlow", "Terraform", "Tomcat", "TypeScript", "UML", "Ubuntu",
     "UiPath", "Unix", "UX UI Design", "VBA", "VMware", "VR", "VR", "Vaadin", "Vagrant", "Visual Studio", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack",
