@@ -5,7 +5,7 @@ module.exports = {
     "Cucumber", "Cypress", "D3", "DDD", "Dapper", "Dart", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse",
     "ElasticSearch", "Electron", "Elixir", "Embedded", "Ember", "Erlang", "ExpressJS", "FPGA", "Fastlane", "Figma", "Firebase", "Flask", "Flink",
     "Flutter", "GCP", "GIS", "GNU", "Git", "Go", "Golang", "Gradle", "Grafana", "GraphQL", "Groovy", "Gulp", "HSM", "HTTP", "Haskell", "Heroku",
-    "Hibernate", "IAM", "IBM", "IaaS", "Indesign", "Ionic", "JBoss", "JEE", "JIRA", "JPA", "JSON", "JSP", "JUnit", "JWT", "Jasmin", "Java",
+    "Hibernate", "IAM", "IBM", "IaaS", "Indesign", "Ionic", "JBoss", "JIRA", "JPA", "JSON", "JSP", "JUnit", "JWT", "Jasmin", "Java", "Java EE",
     "JavaFX", "JavaScript", "Jenkins", "Jest", "Kafka", "Kanban", "Karma", "Kotlin", "Kubernetes", "LDAP", "LESS", "Laravel",
     "Leaflet", "Linux", "MS-SQL", "Machine Learning", "Magento", "MariaDB", "Marvel", "Material UI", "Matlab", "Maven", "Mesos", "Meteor"
     , "Mobile", "MongoDB", "MySQL", "NextJS", "Nexus", "Nginx", "NodeJS", "NuxtJS", "ODI", "OSS", "Objective-C", "Office365", "OpenShift",
