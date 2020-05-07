@@ -15,7 +15,7 @@ module.exports = {
     "Selenium", "Sentry", "SharePoint", "Sketch", "Solr", "Sonar", "Spark", "Spring", "Spring Boot", "Swagger", "Swift", "Swing", "Symfony",
     "System Engineer", "TDD", "TSQL", "TYPO3", "Teamcity", "TensorFlow", "Terraform", "Tomcat", "TypeScript", "UML", "Ubuntu",
     "UiPath", "Unix", "UX UI Design", "VBA", "VMware", "VR", "VR", "Vaadin", "Vagrant", "Visual Studio", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack",
-    "Websphere", "Windows", "WordPress", "XML", "XP", "XPath", "Xamarin", "Yarn", "Zend", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
+    "Websphere", "Windows", "WordPress", "XML", "XP", "XPath", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
     "microservices", "numpy", "opencv", "pandas", "pytest"]
 
   // Golang -> Go
