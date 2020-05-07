@@ -90,6 +90,13 @@ const techTags = [".NET MVC", "3D", "AEM", "AJAX", "API", "ASP.NET", "AWS", "Act
   "Websphere", "Windows", "WordPress", "XML", "XP", "XPath", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
   "microservices", "numpy", "opencv", "pandas", "pytest"]
 
+const specialExtractTag = (searchFor, tagToAdd, foundTechTags, textsToTest) => {
+  const reg = new RegExp('[\\W_]+(' + searchFor.toLowerCase() + ')[\\W_]+', 'g')//matchTechTagSurroundedByNonLetters
+  if (textsToTest.some(text => reg.test(text))) {
+    foundTechTags.add(tagToAdd)
+  }
+}
+
 const extractTechTagsFrom = (jobForm, techTags) => {
   let foundTechTags = new Set()
   const lowCaseJobDescription = jobForm.description ? jobForm.description.toLowerCase() : ""
@@ -108,24 +115,24 @@ const extractTechTagsFrom = (jobForm, techTags) => {
     jobForm.technologies && jobForm.technologies.forEach(tech => { if (tech.toLowerCase() === lowCaseTechTag) foundTechTags.add(techTag) })
     if (jobForm.techCategory && jobForm.techCategory.toLowerCase() === lowCaseTechTag) foundTechTags.add(techTag)
   })
-  this.specialExtractTag("Test Driven", "TDD", foundTechTags, stringsToTest)
-  this.specialExtractTag("Domain Driven", "DDD", foundTechTags, stringsToTest)
-  this.specialExtractTag("365", "Office 365", foundTechTags, stringsToTest)
-  this.specialExtractTag("O365", "Office 365", foundTechTags, stringsToTest)
-  this.specialExtractTag("Go", "Golang", foundTechTags, stringsToTest)
-  this.specialExtractTag("UX", "UX UI Design", foundTechTags, stringsToTest)
-  this.specialExtractTag("UI", "UX UI Design", foundTechTags, stringsToTest)
-  this.specialExtractTag("JEE", "Java EE", foundTechTags, stringsToTest)
-  this.specialExtractTag("J2EE", "Java EE", foundTechTags, stringsToTest)
-  this.specialExtractTag("Remote", "Remote Work", foundTechTags, stringsToTest)
-  this.specialExtractTag("WFH", "Remote Work", foundTechTags, stringsToTest)
-  this.specialExtractTag(".NET", "ASP.NET", foundTechTags, stringsToTest)
-  this.specialExtractTag("Node", "NodeJS", foundTechTags, stringsToTest)
-  this.specialExtractTag("Node.js", "NodeJS", foundTechTags, stringsToTest)
-  this.specialExtractTag("VueJS", "Vue", foundTechTags, stringsToTest)
-  this.specialExtractTag("Vue.js", "Vue", foundTechTags, stringsToTest)
-  this.specialExtractTag("Sails", "SailsJS", foundTechTags, stringsToTest)
-  this.specialExtractTag("Express.js", "ExpressJS", foundTechTags, stringsToTest)
+  specialExtractTag("Test Driven", "TDD", foundTechTags, stringsToTest)
+  specialExtractTag("Domain Driven", "DDD", foundTechTags, stringsToTest)
+  specialExtractTag("365", "Office 365", foundTechTags, stringsToTest)
+  specialExtractTag("O365", "Office 365", foundTechTags, stringsToTest)
+  specialExtractTag("Go", "Golang", foundTechTags, stringsToTest)
+  specialExtractTag("UX", "UX UI Design", foundTechTags, stringsToTest)
+  specialExtractTag("UI", "UX UI Design", foundTechTags, stringsToTest)
+  specialExtractTag("JEE", "Java EE", foundTechTags, stringsToTest)
+  specialExtractTag("J2EE", "Java EE", foundTechTags, stringsToTest)
+  specialExtractTag("Remote", "Remote Work", foundTechTags, stringsToTest)
+  specialExtractTag("WFH", "Remote Work", foundTechTags, stringsToTest)
+  specialExtractTag(".NET", "ASP.NET", foundTechTags, stringsToTest)
+  specialExtractTag("Node", "NodeJS", foundTechTags, stringsToTest)
+  specialExtractTag("Node.js", "NodeJS", foundTechTags, stringsToTest)
+  specialExtractTag("VueJS", "Vue", foundTechTags, stringsToTest)
+  specialExtractTag("Vue.js", "Vue", foundTechTags, stringsToTest)
+  specialExtractTag("Sails", "SailsJS", foundTechTags, stringsToTest)
+  specialExtractTag("Express.js", "ExpressJS", foundTechTags, stringsToTest)
   if (jobForm.techCategory === "Dev-Ops") foundTechTags.add("DevOps")
   if (jobForm.techCategory === "UI-UX-Designer") foundTechTags.add("UX UI Design")
 
