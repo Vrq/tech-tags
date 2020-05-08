@@ -72,7 +72,7 @@ const theme = {
 }
 
 const techTags = [".NET MVC", "3D", "AEM", "AJAX", "API", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android",
-  "Angular", "Ansible", "Apollo", "Asterisk", "Avaloq", "Azure", "BPMN", "BSD", "Backbone", "Bamboo", "Bamboo", "Bash", "Beanstalk", "BitTalk",
+  "Angular", "Ansible", "Apollo", "Asterisk", "Avaloq", "Azure", "BPMN", "BSD", "Backbone", "Bamboo", "Bamboo", "Bash", "Beanstalk", "BitTalk", "Blockchain",
   "Bootstrap", "C#", "C++", "CI/CD", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Celery", "Cisco", "Clojue", "Cloud Foundry", "Composer", "Cordova",
   "Cucumber", "Cypress", "D3", "DDD", "Dapper", "Dart", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse",
   "ElasticSearch", "Electron", "Elixir", "Embedded", "Ember", "Erlang", "ExpressJS", "FPGA", "Fastlane", "Figma", "Firebase", "Flask", "Flink",
