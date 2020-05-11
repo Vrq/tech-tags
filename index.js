@@ -4,7 +4,7 @@ const chipTheme = {
     padding: '0.4em 0.6em',
     fontSize: '1rem',
     color: 'white',
-    marginRight: '0.5rem',
+    // marginRight: '0.5rem',
     fontFamily: 'Nunito'
   },
   chipRemove: {
