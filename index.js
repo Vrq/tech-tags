@@ -76,7 +76,7 @@ const techTags = [".NET MVC", "3D", "AEM", "Airflow", "AJAX", "API", "ASP.NET", 
   "Bootstrap", "C#", "C++", "Camunda", "CI/CD", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Cordova",
   "Cucumber", "Cypress", "D3", "DDD", "Dapper", "Dart", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse",
   "ElasticSearch", "Electron", "Elixir", "Embedded", "Ember", "Erlang", "ExpressJS", "FPGA", "Fastlane", "Figma", "Firebase", "Flask", "Flink",
-  "Flutter", "GCP", "GIS", "GNU", "Git", "Golang", "Gradle", "Grafana", "GraphQL", "Groovy", "Gulp", "HSM", "HTTP", "Haskell", "Heroku",
+  "Flutter", "Gatsby", "GCP", "GIS", "GNU", "Git", "Golang", "Gradle", "Grafana", "GraphQL", "Groovy", "Gulp", "HSM", "HTTP", "Haskell", "Heroku",
   "Hibernate", "IAM", "IBM", "IaaS", "Indesign", "Ionic", "JBoss", "JIRA", "JPA", "JSON", "JSP", "JUnit", "JWT", "Jasmine", "Java", "Java EE",
   "JavaFX", "JavaScript", "Jenkins", "Jest", "Kafka", "Kanban", "Karma", "Kotlin", "Kubernetes", "LDAP", "LESS", "Laravel",
   "Leaflet", "Linux", "MS-SQL", "Machine Learning", "Magento", "MariaDB", "Marvel", "Material UI", "Matlab", "Maven", "Mesos", "Meteor",
@@ -90,6 +90,12 @@ const techTags = [".NET MVC", "3D", "AEM", "Airflow", "AJAX", "API", "ASP.NET", 
   "Websphere", "Windows", "WordPress", "XML", "XP", "XPath", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
   "microservices", "numpy", "opencv", "pandas", "pytest"]
 
+const perksTags = ["Team events", "Annual company retreat", "5 weeks vacation", "4 weeks vacation", "6 weeks vacation", "Fresh fruits", "Sweets in the kitchen",
+  "International team", "Beer", "Pizza Day", "Fully remote work", "Remote 1 day per week", "Mobile phone subscription", "Flexible work time", "Sabbatical possibility",
+  "Gym membership", "Individual training budget", "Company workshops", "Conferences", "Public transport Half-Fare", "Public transport GA Travelcard", "Free lunch", "Choose your hardware",
+  "Well connected office", "Accident insurance","Startup culture", "Career paths", "Coffee, tea", "Bonus pay", "Part-time possible", "40-hour work week", "42-hour work week", "45-hour work week",
+  "Ping-pong table"
+]
 const specialExtractTag = (searchFor, tagToAdd, foundTechTags, textsToTest) => {
   const reg = new RegExp('[\\W_]+(' + searchFor.toLowerCase() + ')[\\W_]+', 'g')//matchTechTagSurroundedByNonLetters
   if (textsToTest.some(text => reg.test(text))) {
@@ -141,6 +147,7 @@ const extractTechTagsFrom = (jobForm, techTags) => {
 
 module.exports = {
   techTags,
+  perksTags,
   theme,
   chipTheme,
   extractTechTagsFrom
