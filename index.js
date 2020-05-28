@@ -90,11 +90,11 @@ const techTags = [".NET MVC", "3D", "AEM", "Airflow", "AJAX", "API", "ASP.NET", 
   "Websphere", "Windows", "WordPress", "XML", "XP", "XPath", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
   "microservices", "numpy", "opencv", "pandas", "pytest"]
 
-const perksTags = ["Team events", "Annual company retreat", "5 weeks vacation", "4 weeks vacation", "6 weeks vacation", "Fresh fruits", "Sweets in the kitchen",
-  "International team", "Beer", "Pizza Day", "Fully remote work", "Remote 1 day per week", "Mobile phone subscription", "Flexible work time", "Sabbatical possibility",
+const perkTags = ["Team events", "Annual company retreat", "5 weeks vacation", "4 weeks vacation", "6 weeks vacation", "Fresh fruits", "Sweets in the kitchen",
+  "International team", "Beer", "Pizza Day", "Fully home office / remote work", "Home office / Remote 1 day per week", "Mobile phone subscription", "Flexible work time", "Sabbatical possibility",
   "Gym membership", "Individual training budget", "Company workshops", "Conferences", "Public transport Half-Fare", "Public transport GA Travelcard", "Free lunch", "Choose your hardware",
   "Well connected office", "Accident insurance","Startup culture", "Career paths", "Coffee, tea", "Bonus pay", "Part-time possible", "40-hour work week", "42-hour work week", "45-hour work week",
-  "Ping-pong table"
+  "Ping-pong table", "Cool office"
 ]
 const specialExtractTag = (searchFor, tagToAdd, foundTechTags, textsToTest) => {
   const reg = new RegExp('[\\W_]+(' + searchFor.toLowerCase() + ')[\\W_]+', 'g')//matchTechTagSurroundedByNonLetters
@@ -147,7 +147,7 @@ const extractTechTagsFrom = (jobForm, techTags) => {
 
 module.exports = {
   techTags,
-  perksTags,
+  perkTags,
   theme,
   chipTheme,
   extractTechTagsFrom
