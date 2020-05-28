@@ -93,7 +93,7 @@ const techTags = [".NET MVC", "3D", "AEM", "Airflow", "AJAX", "API", "ASP.NET", 
 const perkTags = ["4 weeks vacation", "40-hour work week", "42-hour work week", "45-hour work week", "5 weeks vacation", "6 weeks vacation",
   "Accident insurance", "Annual company retreat", "Beer", "Bonus pay", "Career paths", "Choose your hardware", "Coffee, tea", "Company workshops",
   "Conferences", "Cool office", "Flexible work time", "Free lunch", "Fresh fruits", "Fully home office / remote work", "Gym membership",
-  "Home office / Remote 1 day per week", "Individual training budget", "International team", "Mobile phone subscription", "Part-time possible",
+  "Home office / Remote 1 day per week", "Individual training budget", "International team", "Maternity/Paternity leave", "Mobile phone subscription", "Part-time possible",
   "Ping-pong table", "Pizza Day", "Public transport GA Travelcard", "Public transport Half-Fare", "Sabbatical possibility", "Startup culture",
   "Sweets in the kitchen", "Team events", "Well connected office"]
 
@@ -146,10 +146,39 @@ const extractTechTagsFrom = (jobForm, techTags) => {
   return [...foundTechTags]
 }
 
+const extractPerksFrom = (jobForm, perkTags, companyData) => {
+  let foundPerkTags = new Set(companyData.perks)
+  const lowCaseJobDescription = jobForm.description ? jobForm.description.toLowerCase() : ""
+  const stringsToTest = [lowCaseJobDescription].concat(companyData.perks)
+
+  perkTags.forEach(perkTag => {
+      const lowCasePerkTag = perkTag.toLowerCase()
+      const reg = new RegExp('[\\W_]+(' + lowCasePerkTag + ')[\\W_]+', 'g')//matchTechTagSurroundedByNonLetters
+      if (stringsToTest.some(text => reg.test(text))) {
+          foundPerkTags.add(perkTag)
+      }
+  })
+  specialExtractTag("events", "Team events", foundPerkTags, stringsToTest)
+  specialExtractTag("retreat", "Annual company retreat", foundPerkTags, stringsToTest)
+  specialExtractTag("fruits", "Fresh fruits", foundPerkTags, stringsToTest)
+  specialExtractTag("sweets", "Sweets in the kitchen", foundPerkTags, stringsToTest)
+  specialExtractTag("flexible work", "Flexible work time", foundPerkTags, stringsToTest)
+  specialExtractTag("training", "Individual training budget", foundPerkTags, stringsToTest)
+  specialExtractTag("startup", "Startup culture", foundPerkTags, stringsToTest)
+  specialExtractTag("start-up", "Startup culture", foundPerkTags, stringsToTest)
+  specialExtractTag("ping-pong", "Ping-pong table", foundPerkTags, stringsToTest)
+  specialExtractTag("coffee", "Coffee, tea", foundPerkTags, stringsToTest)
+  specialExtractTag("tea", "Coffee, tea", foundPerkTags, stringsToTest)
+
+  return [...foundPerkTags]
+
+}
+
 module.exports = {
   techTags,
   perkTags,
   theme,
   chipTheme,
-  extractTechTagsFrom
+  extractTechTagsFrom,
+  extractPerksFrom
 }
