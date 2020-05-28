@@ -90,12 +90,13 @@ const techTags = [".NET MVC", "3D", "AEM", "Airflow", "AJAX", "API", "ASP.NET", 
   "Websphere", "Windows", "WordPress", "XML", "XP", "XPath", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
   "microservices", "numpy", "opencv", "pandas", "pytest"]
 
-const perkTags = ["Team events", "Annual company retreat", "5 weeks vacation", "4 weeks vacation", "6 weeks vacation", "Fresh fruits", "Sweets in the kitchen",
-  "International team", "Beer", "Pizza Day", "Fully home office / remote work", "Home office / Remote 1 day per week", "Mobile phone subscription", "Flexible work time", "Sabbatical possibility",
-  "Gym membership", "Individual training budget", "Company workshops", "Conferences", "Public transport Half-Fare", "Public transport GA Travelcard", "Free lunch", "Choose your hardware",
-  "Well connected office", "Accident insurance","Startup culture", "Career paths", "Coffee, tea", "Bonus pay", "Part-time possible", "40-hour work week", "42-hour work week", "45-hour work week",
-  "Ping-pong table", "Cool office"
-]
+const perkTags = ["4 weeks vacation", "40-hour work week", "42-hour work week", "45-hour work week", "5 weeks vacation", "6 weeks vacation",
+  "Accident insurance", "Annual company retreat", "Beer", "Bonus pay", "Career paths", "Choose your hardware", "Coffee, tea", "Company workshops",
+  "Conferences", "Cool office", "Flexible work time", "Free lunch", "Fresh fruits", "Fully home office / remote work", "Gym membership",
+  "Home office / Remote 1 day per week", "Individual training budget", "International team", "Mobile phone subscription", "Part-time possible",
+  "Ping-pong table", "Pizza Day", "Public transport GA Travelcard", "Public transport Half-Fare", "Sabbatical possibility", "Startup culture",
+  "Sweets in the kitchen", "Team events", "Well connected office"]
+
 const specialExtractTag = (searchFor, tagToAdd, foundTechTags, textsToTest) => {
   const reg = new RegExp('[\\W_]+(' + searchFor.toLowerCase() + ')[\\W_]+', 'g')//matchTechTagSurroundedByNonLetters
   if (textsToTest.some(text => reg.test(text))) {
