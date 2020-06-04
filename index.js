@@ -131,8 +131,6 @@ const extractTechTagsFrom = (jobForm, techTags) => {
   specialExtractTag("UI", "UX UI Design", foundTechTags, stringsToTest)
   specialExtractTag("JEE", "Java EE", foundTechTags, stringsToTest)
   specialExtractTag("J2EE", "Java EE", foundTechTags, stringsToTest)
-  specialExtractTag("Remote", "Remote Work", foundTechTags, stringsToTest)
-  specialExtractTag("WFH", "Remote Work", foundTechTags, stringsToTest)
   specialExtractTag(".NET", "ASP.NET", foundTechTags, stringsToTest)
   specialExtractTag("Node", "NodeJS", foundTechTags, stringsToTest)
   specialExtractTag("Node.js", "NodeJS", foundTechTags, stringsToTest)
