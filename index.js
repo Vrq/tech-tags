@@ -73,10 +73,10 @@ const theme = {
 
 const techTags = [".NET MVC", "3D", "Abacus", "AEM", "Airflow", "AJAX", "API", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android",
   "Angular", "Ansible", "Apollo", "Asterisk", "Avaloq", "Azure", "BPMN", "BSD", "Backbone", "Bamboo", "Bamboo", "Bash", "Beanstalk", "BitTalk", "Blockchain",
-  "Bootstrap", "C#", "C++", "Camunda", "CI/CD", "Citrix", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Cordova",
+  "Bootstrap", "C#", "C++", "CakePHP", "Camunda", "CI/CD", "Citrix", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Cordova",
   "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dapper", "Dart", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse",
-  "ElasticSearch", "Electron", "Elixir", "Embedded", "Ember", "EPCIS", "Erlang", "ExpressJS", "Ethernet", "FPGA", "Fastlane", "Figma", "Firebase", "Flask", "Flink",
-  "Flutter", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "Golang", "Gradle", "Grafana", "GraphQL", "Groovy", "Gulp", "HSM", "HTTP", "Haskell", "Heroku",
+  "ElasticSearch", "Electron", "Elixir", "Embedded", "Ember", "EPCIS", "Erlang", "ExpressJS", "ESLint", "Ethernet", "FPGA", "Fastlane", "Figma", "Firebase", "Flask", "Flink",
+  "Flutter", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "GitLab", "Golang", "Gradle", "Grafana", "GraphQL", "Groovy", "Gulp", "HSM", "HTTP", "Haskell", "Heroku",
   "Hibernate", "HL7", "IAM", "IBM", "IBM Spectrum", "IaaS", "IDoc", "Indesign", "InfiniBand", "Ionic", "JBoss", "JIRA", "JPA", "JSON", "JSP", "JUnit", "JWT", "Jasmine", "Java", "Java EE",
   "JavaFX", "JavaScript", "Jenkins", "Jest", "Kafka", "Kanban", "Karma", "Kotlin", "Kubernetes", "LDAP", "LESS", "Laravel",
   "Leaflet", "Linux", "MS-SQL", "Machine Learning", "Magento", "MariaDB", "Marvel", "Material UI", "Matlab", "Maven", "Mesos", "Meteor", "Microsoft BizTalk Server",
@@ -87,7 +87,7 @@ const techTags = [".NET MVC", "3D", "Abacus", "AEM", "Airflow", "AJAX", "API", "
   "Selenium", "Sentry", "SharePoint", "Sketch", "Solr", "Sonar", "Spark", "Splunk", "Spring", "Spring Boot", "Swagger", "Swift", "Swing", "Symfony",
   "System Engineer", "TCP/IP", "TDD", "TSQL", "TYPO3", "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "TypeScript", "UML", "Ubuntu",
   "UiPath", "Unix", "Unity", "Unreal", "UX UI Design", "VBA", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Visual Studio", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack",
-  "Websphere", "Windows", "WordPress", "XML", "XP", "XPath", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
+  "Websphere", "Windows", "WordPress", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
   "microservices", "numpy", "opencv", "pandas", "pytest"]
 
 const perkTags = ["4 weeks vacation", "40-hour work week", "42-hour work week", "45-hour work week", "5 weeks vacation", "6 weeks vacation",

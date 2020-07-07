@@ -1,6 +1,6 @@
 {
   "name": "swissdev-tech-tags",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "Tech Tags",
   "main": "index.js",
   "scripts": {
