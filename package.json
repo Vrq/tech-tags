@@ -1,12 +1,13 @@
 {
   "name": "swissdev-tech-tags",
-  "version": "0.0.40",
+  "version": "0.0.41",
   "description": "Tech Tags",
+  "author": "Vrq",
+  "repository": "https://github.com/Vrq/tech-tags",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC"
 }
