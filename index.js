@@ -117,6 +117,8 @@ const extractTechTagsFrom = (jobForm, techTags) => {
     jobForm.technologies && jobForm.technologies.forEach(tech => { if (tech.toLowerCase() === lowCaseTechTag) foundTechTags.add(techTag) })
     if (jobForm.techCategory && jobForm.techCategory.toLowerCase() === lowCaseTechTag) foundTechTags.add(techTag)
   })
+  if (jobForm.techCategory === "Dev-Ops") foundTechTags.add("DevOps")
+  if (jobForm.techCategory === "UI-UX-Designer") foundTechTags.add("UX UI Design")
 
   return [...foundTechTags]
 }
@@ -149,8 +151,6 @@ const extractTechTagsFromStringArray = (stringsToTest, techTags) => {
   specialExtractTag("Vue.js", "Vue", foundTechTags, stringsToTest)
   specialExtractTag("Sails", "SailsJS", foundTechTags, stringsToTest)
   specialExtractTag("Express.js", "ExpressJS", foundTechTags, stringsToTest)
-  if (jobForm.techCategory === "Dev-Ops") foundTechTags.add("DevOps")
-  if (jobForm.techCategory === "UI-UX-Designer") foundTechTags.add("UX UI Design")
 
   return foundTechTags
 }
