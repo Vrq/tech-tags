@@ -95,7 +95,7 @@ const perkTags = ["4 weeks vacation", "40-hour work week", "42-hour work week", 
   "Conferences", "Cool office", "Flexible work time", "Free lunch", "Fresh fruits", "Fully home office / remote work", "Gym membership",
   "Home office / Remote 1 day per week", "Individual training options", "International team", "Maternity/Paternity leave", "Mobile phone subscription", "Part-time possible",
   "Ping-pong table", "Pizza Day", "Public transport GA Travelcard", "Public transport Half-Fare", "Relocation support", "Sabbatical possibility", "Standing desk", "Startup culture",
-  "Sweets in the kitchen", "Table footbal", "Team social events", "Quiet office", "Well connected office"]
+  "Sweets in the kitchen", "Table football", "Team social events", "Quiet office", "Well connected office"]
 
 const specialExtractTag = (searchFor, tagToAdd, foundTechTags, textsToTest) => {
   const reg = new RegExp('[\\W_]+(' + searchFor.toLowerCase() + ')[\\W_]+', 'g')//matchTechTagSurroundedByNonLetters
