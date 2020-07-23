@@ -189,5 +189,6 @@ module.exports = {
   theme,
   chipTheme,
   extractTechTagsFrom,
-  extractPerksFrom
+  extractPerksFrom,
+  extractTechTagsFromStringArray
 }
