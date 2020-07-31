@@ -72,8 +72,8 @@ const theme = {
 }
 
 const techTags = [".NET MVC", "3D", "Abacus", "Adobe CS", "AEM", "Airflow", "AJAX", "API", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android",
-  "Angular", "Ansible", "Apollo", "Asterisk", "Avaloq", "Azure", "BPMN", "BSD", "Backbone", "Backend Development", "Bamboo", "Bamboo", "Bash", "Beanstalk", "BitTalk", "Blockchain",
-  "Bootstrap", "C#", "C++", "CakePHP", "Camunda", "CI/CD", "Citrix", "Cloud", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Computer Vision", "Cordova",
+  "Angular", "Ansible", "Apache HTTP Server", "Apollo", "Asterisk", "Avaloq", "Azure", "BPMN", "BSD", "Backbone", "Backend Development", "Bamboo", "Bamboo", "Bash", "Beanstalk", "BitTalk", "Blockchain",
+  "Bootstrap", "C#", "C++", "CakePHP", "Camunda", "CI/CD", "Citrix", "Cloud", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Computer Vision", "Confluence", "Cordova",
   "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dapper", "Dart", "Data Vault", "Data Warehouse", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse",
   "ElasticSearch", "Electron", "Elixir", "Embedded", "Ember", "EPCIS", "Erlang", "ExpressJS", "ESLint", "Ethernet", "FPGA", "Fastlane", "Figma", "Firebase", "Flask", "Flink",
   "Flutter", "Frontend Development", "Fullstack Development", "Game Development", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "GitLab", "Golang", "Gradle", "Grafana", "GraphQL", "Groovy", "Gulp", "HSM", "HTTP", "Haskell", "Heroku",
@@ -84,7 +84,7 @@ const techTags = [".NET MVC", "3D", "Abacus", "Adobe CS", "AEM", "Airflow", "AJA
   "Oracle", "PHP", "PL SQL", "PWA", "PaaS", "Perl", "Phoenix", "Pimcore", "Play Framework", "Polymer", "PostgreSQL", "PowerShell", "Prometheus", "Product Manager", "Project Manager", "Puppet",
   "Python", "QA Testing", "Quobyte","Qt", "Quarkus", "RDF", "RDMA", "REST", "RHEL", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React", "React Native", "Redgate", "Redis",
   "Redux", "Ruby", "Rust", "RxJs", "SAML", "SAP", "SASS", "SCSS", "SOAP", "SQL", "SQLite", "SailsJS", "Salesforce", "Scala", "Scrum", "Security", "SMB",
-  "Selenium", "Sentry", "SharePoint", "Sketch", "Solr", "Sonar", "Spark", "Splunk", "Spring", "Spring Boot", "SSAS", "SSIS", "Swagger", "Swift", "Swing", "Symfony",
+  "Selenium", "Sentry", "SharePoint", "Shopware", "Sketch", "Solr", "Sonar", "Spark", "Splunk", "Spring", "Spring Boot", "SSAS", "SSIS", "Swagger", "Swift", "Swing", "Symfony",
   "System Engineer", "TCP/IP", "TDD", "TSQL", "TYPO3", "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "TypeScript", "UML", "Ubuntu",
   "UiPath", "Unix", "Unity", "Unreal", "UX UI Design", "VBA", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Visual Studio", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack",
   "Websphere", "Web Development", "Windows", "WordPress", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
