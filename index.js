@@ -71,8 +71,8 @@ const theme = {
   }
 }
 
-const techTags = [".NET MVC", "3D", "Abacus", "Adobe CS", "AEM", "Airflow", "AJAX", "API", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android",
-  "Angular", "Ansible", "Apache HTTP Server", "Apollo", "Asterisk", "Avaloq", "Azure", "BPMN", "BSD", "BSI CRM", "Backbone", "Backend Development", "Bamboo", "Bamboo", "Bash", "Beanstalk", "BitTalk", "Blockchain",
+const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Abacus", "Adobe CS", "AEM", "Airflow", "AJAX", "API", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android",
+  "Angular", "Ansible", "Apache HTTP Server", "Apollo", "Asterisk", "Avaloq", "Azure", "BPMN", "BSD ", "BSI CRM", "Backbone", "Backend Development", "Bamboo", "Bamboo", "Bash", "Beanstalk", "BitTalk", "Blockchain",
   "Bootstrap", "C#", "C++", "CakePHP", "Camunda", "CI/CD", "Citrix", "Cloud", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Computer Vision", "Confluence", "Cordova",
   "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dapper", "Dart", "Data Vault", "Data Warehouse", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout",
   "ElasticSearch", "Electron", "Elixir", "Embedded", "Ember", "EPCIS", "Erlang", "ExpressJS", "ESLint", "Ethernet", "F#", "FPGA", "Fastlane", "Figma", "Firebase", "Flask", "Flink",
@@ -80,14 +80,14 @@ const techTags = [".NET MVC", "3D", "Abacus", "Adobe CS", "AEM", "Airflow", "AJA
   "Hibernate", "HL7", "IAM", "IBM", "IBM Spectrum", "IaaS", "IdentityIQ", "IDoc", "Indesign", "InfiniBand", "InVision", "Ionic", "IT Support", "JBoss", "JIRA", "JPA", "JSON", "JSP", "JUnit", "JWT", "Jasmine", "Java", "Java EE",
   "JavaFX", "JavaScript", "Jenkins", "Jest", "Kafka", "Kanban", "Karma", "Kotlin", "Kubernetes", "LDAP", "LESS", "Laravel",
   "Leaflet", "Linux", "MS-SQL", "Machine Learning", "Magento", "MariaDB", "Marvel", "Material UI", "Matlab", "Maven", "Mesos", "Meteor", "Microsoft BizTalk Server",
-  "Mobile", "MongoDB", "MySQL", "NextJS", "Nexus", "NFS", "Nginx", "NodeJS", "NoSQL", "NuxtJS", "ODI", "OSS", "Objective-C", "Office365", "Open-E JovianDSS", "OpenGL", "OpenShift",
+  "Mobile", "MongoDB", "MySQL", "NextJS", "Nexus", "NFS", "Nginx", "NHibernate", "NodeJS", "NoSQL", "NuxtJS", "ODI", "OSS", "Objective-C", "Office365", "Open-E JovianDSS", "OpenGL", "OpenShift",
   "Oracle", "PHP", "PL SQL", "PWA", "PaaS", "Perl", "Phoenix", "Pimcore", "Play Framework", "Polymer", "PostgreSQL", "PowerShell", "Prometheus", "Product Manager", "Project Manager", "Puppet",
-  "Python", "QA Testing", "Quobyte","Qt", "Quarkus", "RDF", "RDMA", "REST", "RBAC", "RHEL", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React", "React Native", "Redgate", "Redis",
+  "Python", "QA Testing", "Quobyte", "Qt", "Quarkus", "RDF", "RDMA", "REST", "RBAC", "RHEL", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React", "React Native", "Redgate", "Redis",
   "Redux", "Ruby", "Rust", "RxJs", "SAML", "SAP", "SASS", "SCSS", "SOAP", "SQL", "SQLite", "SailsJS", "Salesforce", "Scala", "Scrum", "Security", "SMB",
   "Selenium", "Sentry", "SharePoint", "Shopware", "Sketch", "Solr", "Sonar", "Spark", "Splunk", "Spring", "Spring Boot", "SSAS", "SSIS", "Swagger", "Swift", "Swing", "Symfony",
   "System Engineer", "TCP/IP", "TDD", "TSQL", "TYPO3", "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "TypeScript", "UML", "Ubuntu",
   "UiPath", "Unix", "Unity", "Unreal", "UX UI Design", "VBA", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Visual Studio", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack",
-  "Websphere", "Web Development", "Windows", "WordPress", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
+  "Websphere", "Web Development", "Windows", "Windows Forms", "WordPress", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
   "microservices", "numpy", "opencv", "pandas", "pytest"]
 
 const perkTags = ["4 weeks vacation", "40-hour work week", "42-hour work week", "45-hour work week", "5 weeks vacation", "6 weeks vacation",
@@ -110,7 +110,7 @@ const extractTechTagsFrom = (jobForm, techTags) => {
   const lowCaseNiceToHave = jobForm.requirementsNiceTextArea ? jobForm.requirementsNiceTextArea.toLowerCase() : ""
   const lowCaseResponsibilities = jobForm.responsibilitiesTextArea ? jobForm.responsibilitiesTextArea.toLowerCase() : ""
   const stringsToTest = [lowCaseJobDescription, lowCaseRequirements, lowCaseNiceToHave, lowCaseResponsibilities]
-  
+
   const foundTechTags = extractTechTagsFromStringArray(stringsToTest, techTags)
   techTags.forEach(techTag => {
     const lowCaseTechTag = techTag.toLowerCase()
