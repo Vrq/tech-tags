@@ -90,12 +90,12 @@ const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Abacus", "Ad
   "Websphere", "Web Development", "Windows", "Windows Forms", "WordPress", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
   "microservices", "numpy", "opencv", "pandas", "pytest"]
 
-const perkTags = ["4 weeks vacation", "40-hour work week", "42-hour work week", "45-hour work week", "5 weeks vacation", "6 weeks vacation",
-  "Accident insurance", "AC cooler", "Annual company retreat", "Beer", "Bonus pay", "Career paths and annual reviews", "Choose your hardware", "Coffee, tea", "Company workshops and knowledge sharing",
+const perkTags = ["4 weeks vacation", "35-hour work week", "40-hour work week", "42-hour work week", "45-hour work week", "5 weeks vacation", "6 weeks vacation",
+  "Accident insurance", "AC cooler", "Annual company retreat", "Beer", "Bonus pay", "Career paths and annual reviews", "Choose your hardware", "Coffee, tea", "Collective wage agreement", "Company workshops and knowledge sharing",
   "Conferences", "Cool office", "Flexible work time", "Free lunch", "Fresh fruits", "Fully home office / remote work", "Gym membership",
   "Home office / Remote 1 day per week", "Individual training options", "International team", "Maternity/Paternity leave", "Mobile phone subscription", "Part-time possible",
   "Ping-pong table", "Pizza Day", "Public transport GA Travelcard", "Public transport Half-Fare", "Relocation support", "Sabbatical possibility", "Standing desk", "Startup culture",
-  "Sweets in the kitchen", "Table football", "Team social events", "Quiet office", "Well connected office"]
+  "Sweets in the kitchen", "Table football", "Team social events", "Quiet office", "Vacation Bonus", "Well connected office"]
 
 const specialExtractTag = (searchFor, tagToAdd, foundTechTags, textsToTest) => {
   const reg = new RegExp('[\\W_]+(' + searchFor.toLowerCase() + ')[\\W_]+', 'g')//matchTechTagSurroundedByNonLetters
