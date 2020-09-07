@@ -77,7 +77,7 @@ const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Abacus", "Ad
   "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dapper", "Dart", "Data Vault", "Data Warehouse", "DevExpress", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout",
   "ElasticSearch", "Electron", "Elixir", "Embedded", "Ember", "EPCIS", "Erlang", "ExpressJS", "ESLint", "Ethernet", "F#", "FPGA", "Fastlane", "Figma", "Firebase", "Flask", "Flink",
   "Flutter", "Frontend Development", "Fullstack Development", "Game Development", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "GitLab", "Golang", "Gradle", "Grafana", "GraphQL", "Groovy", "Gulp", "HSM", "HTTP", "Haskell", "Heroku",
-  "Hibernate", "HL7", "IAM", "IBM", "IBM Spectrum", "IaaS", "IdentityIQ", "IDoc", "Indesign", "InfiniBand", "InVision", "Ionic", "IT Support", "JBoss", "JIRA", "JPA", "JSON", "JSP", "JUnit", "JWT", "Jasmine", "Java", "Java EE",
+  "Hibernate", "HL7", "IAM", "IBM", "IBM Spectrum", "IaaS", "IdentityIQ", "IDoc", "Indesign", "InfiniBand", "Infor LN", "InVision", "Ionic", "IT Support", "JBoss", "JIRA", "JPA", "JSON", "JSP", "JUnit", "JWT", "Jasmine", "Java", "Java EE",
   "JavaFX", "JavaScript", "Jenkins", "Jest", "Kafka", "Kanban", "Karma", "Kotlin", "Kubernetes", "LDAP", "LESS", "Laravel",
   "Leaflet", "Linux", "MS-SQL", "Machine Learning", "Magento", "MariaDB", "Marvel", "Material UI", "Matlab", "Maven", "Mesos", "Meteor", "Microsoft BizTalk Server",
   "Mobile", "MongoDB", "MySQL", "NextJS", "Nexus", "NFS", "Nginx", "NHibernate", "NodeJS", "NoSQL", "NuxtJS", "ODI", "OSS", "Objective-C", "Office365", "Open-E JovianDSS", "OpenGL", "OpenShift",
