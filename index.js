@@ -71,10 +71,10 @@ const theme = {
   }
 }
 
-const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Abacus", "Adobe CS", "AEM", "Airflow", "AJAX", "API", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android",
+const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Abacus", "Adobe CS", "AEM", "Airflow", "AJAX", "API", "Appium", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android",
   "Angular", "Ansible", "Apache HTTP Server", "Apollo", "Asterisk", "Avaloq", "Azure", "BPMN", "BSD ", "BSI CRM", "Backbone", "Backend Development", "Bamboo", "Bamboo", "Bash", "Beanstalk", "BitTalk", "Blockchain", "Bluetooth",
   "Bootstrap", "C#", "C++", "CakePHP", "Camunda", "CI/CD", "Citrix", "Cloud", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Computer Vision", "Confluence", "Cordova",
-  "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dapper", "Dart", "Data Vault", "Data Warehouse", "DevExpress", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout",
+  "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dagger", "Dapper", "Dart", "Data Vault", "Data Warehouse", "DevExpress", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout",
   "ElasticSearch", "Electron", "Elixir", "Embedded", "Ember", "ERP", "EPCIS", "Erlang", "ExpressJS", "ESLint", "Ethernet", "F#", "FPGA", "Fastlane", "Figma", "Firebase", "Flask", "Flink",
   "Flutter", "Frontend Development", "Fullstack Development", "Game Development", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "GitLab", "Golang", "Gradle", "Grafana", "GraphQL", "Groovy", "Gulp", "HSM", "HTTP", "Haskell", "Heroku",
   "Hibernate", "HL7", "IAM", "IBM", "IBM Spectrum", "IaaS", "IdentityIQ", "IDoc", "Indesign", "InfiniBand", "Infor LN", "InVision", "Ionic", "IT Support", "JBoss", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JUnit", "JWT", "Jasmine", "Java", "Java EE",
