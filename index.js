@@ -79,7 +79,7 @@ const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Abacus", "Ad
   "Flutter", "Frontend Development", "Fullstack Development", "Game Development", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "GitLab", "Golang", "Gradle", "Grafana", "GraphQL", "Groovy", "Gulp", "HSM", "HTTP", "Haskell", "Heroku",
   "Hibernate", "HL7", "IAM", "IBM", "IBM Spectrum", "IaaS", "IdentityIQ", "IDoc", "Indesign", "InfiniBand", "Infor LN", "InVision", "Ionic", "IT Support", "JBoss", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JUnit", "JWT", "Jasmine", "Java", "Java EE",
   "JavaFX", "JavaScript", "Jenkins", "Jest", "Kafka", "Kanban", "Karma", "Kotlin", "Kubernetes", "LDAP", "LESS", "Laravel",
-  "Leaflet", "Linux", "MS-SQL", "Machine Learning", "Magento", "MariaDB", "Marvel", "Material UI", "Matlab", "Maven", "Mesos", "Meteor", "Microsoft BizTalk Server",
+  "Leaflet", "Linux", "MS-SQL", "Machine Learning", "Magento", "MariaDB", "Marvel", "Material UI", "Matlab", "Maven", "Mesos", "Meteor", "Microsoft BizTalk Server", "Microsoft Dynamics CRM",
   "Mobile", "MongoDB", "MySQL", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NHibernate", "NodeJS", "NoSQL", "NuxtJS", "ODI", "OSS", "Objective-C", "Office365", "Open-E JovianDSS", "OpenGL", "OpenShift",
   "Oracle", "PHP", "PL SQL", "PWA", "PaaS", "Perl", "Phoenix", "Pimcore", "Play Framework", "Polymer", "PostgreSQL", "PowerShell", "Prometheus", "Product Manager", "Project Manager", "Puppet",
   "Python", "QA Testing", "Quobyte", "Qt", "Quarkus", "RDF", "RDMA", "REST", "RBAC", "RHEL", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React", "React Native", "Redgate", "Redis",
