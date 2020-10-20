@@ -83,10 +83,10 @@ const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Abacus", "Ad
   "Mobile", "MongoDB", "MySQL", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NHibernate", "NodeJS", "NoSQL", "NuxtJS", "ODI", "OSS", "Objective-C", "Office365", "Open-E JovianDSS", "OpenGL", "OpenShift",
   "Oracle", "PHP", "PL SQL", "PWA", "PaaS", "Perl", "Phoenix", "Pimcore", "Play Framework", "Polymer", "PostgreSQL", "PowerShell", "Prometheus", "Product Manager", "Project Manager", "Puppet",
   "Python", "QA Testing", "Quobyte", "Qt", "Quarkus", "RDF", "RDMA", "REST", "RBAC", "RHEL", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React", "React Native", "Redgate", "Redis",
-  "Redux", "RS-485", "Ruby", "Rust", "RxJs", "SAML", "SAP", "SASS", "SCSS", "SOAP", "SQL", "SQLite", "SailsJS", "Salesforce", "Scala", "Scrum", "Security", "Sensor Fusion", "SMB",
+  "Redux", "RS-485", "Ruby", "Rust", "RxJs", "SAML", "SAP", "SASS", "SCSS", "SOAP", "SQL", "SQLite", "SailsJS", "Salesforce", "Scala", "Security", "Sensor Fusion", "SMB",
   "Selenium", "Sentry", "SharePoint", "Shopware", "Sketch", "Solr", "Sonar", "Spark", "Splunk", "Spring", "Spring Boot", "SSAS", "SSIS", "strapi", "Svelte", "Swagger", "Swift", "Swing", "Symfony",
   "System Engineer", "TCP/IP", "TDD", "TSQL", "TYPO3", "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "TypeScript", "UML", "Ubuntu",
-  "UiPath", "Unix", "Unity", "Unreal", "UX UI Design", "VBA", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Visual Studio", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack", "WebServices",
+  "UiPath", "Unix", "Unity", "Unreal", "UX UI Design", "VBA", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Video Streaming", "Visual Studio", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack", "WebServices",
   "Websphere", "Web Development", "Windows", "Windows Forms", "WordPress", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
   "microservices", "numpy", "opencv", "pandas", "pytest"]
 
