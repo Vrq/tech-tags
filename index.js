@@ -119,6 +119,12 @@ const extractTechTagsFrom = (jobForm, techTags) => {
   })
   if (jobForm.techCategory === "Dev-Ops") foundTechTags.add("DevOps")
   if (jobForm.techCategory === "UI-UX-Designer") foundTechTags.add("UX UI Design")
+  const name = jobForm.name && jobForm.name.toLowerCase() || ""
+  if (name.includes('fullstack') || name.includes('full-stack') || name.includes('full stack')) foundTechTags.add("Fullstack")
+  if (name.includes('frontend') || name.includes('front-end') || name.includes('front end')) foundTechTags.add("Frontend")
+  if (name.includes('backend') || name.includes('back-end') || name.includes('back end')) foundTechTags.add("Backend")
+  if (name.includes('game')) foundTechTags.add("GameDev")
+  if (name.includes('web')) foundTechTags.add("Web")
 
   return [...foundTechTags]
 }
