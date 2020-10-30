@@ -86,7 +86,7 @@ const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Abacus", "Ad
   "Redux", "RS-485", "Ruby", "Rust", "RxJs", "SAML", "SAP", "SASS", "SCSS", "SOAP", "SQL", "SQLite", "SailsJS", "Salesforce", "Scala", "Security", "Sensor Fusion", "SMB",
   "Selenium", "Sentry", "SharePoint", "Shopware", "Sketch", "Solr", "Sonar", "Spark", "Splunk", "Spring", "Spring Boot", "SSAS", "SSIS", "strapi", "Svelte", "Swagger", "Swift", "Swing", "Symfony",
   "System Engineer", "TCP/IP", "TDD", "TSQL", "TYPO3", "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "TypeScript", "UML", "Ubuntu",
-  "UiPath", "Unix", "Unity", "Unreal", "UX UI Design", "VBA", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Video Streaming", "Visual Studio", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack", "WebServices",
+  "UiPath", "Uniface", "Unix", "Unity", "Unreal", "UX UI Design", "VBA", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Video Streaming", "Visual Studio", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack", "WebServices",
   "Websphere", "Web", "Windows", "Windows Forms", "WordPress", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "gRPC", "iOS", "jQuery",
   "microservices", "numpy", "opencv", "pandas", "pytest"]
 
@@ -157,6 +157,9 @@ const extractTechTagsFromStringArray = (stringsToTest, techTags) => {
   specialExtractTag("Vue.js", "Vue", foundTechTags, stringsToTest)
   specialExtractTag("Sails", "SailsJS", foundTechTags, stringsToTest)
   specialExtractTag("Express.js", "ExpressJS", foundTechTags, stringsToTest)
+  specialExtractTag("GCP", "Cloud", foundTechTags, stringsToTest)
+  specialExtractTag("AWS", "Cloud", foundTechTags, stringsToTest)
+  specialExtractTag("Azure", "Cloud", foundTechTags, stringsToTest)
 
   return foundTechTags
 }
