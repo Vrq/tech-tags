@@ -72,7 +72,7 @@ const theme = {
 }
 
 const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "AJAX", "API", "Appium", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android",
-  "Angular", "Ansible", "Apache HTTP Server", "Apollo", "Aruba", "Asterisk", "Avaloq", "Azure", "BPMN", "BSD ", "BSI CRM", "Backbone", "Backend", "Bamboo", "Bamboo", "Bash", "Beanstalk", "BitTalk", "Blazor", "Blockchain", "Bluetooth",
+  "Angular", "Ansible", "Apache HTTP Server", "Apollo", "Aruba", "Asterisk", "Avaloq", "Azure", "Big Data", "BPMN", "BSD ", "BSI CRM", "Backbone", "Backend", "Bamboo", "Bamboo", "Bash", "Beanstalk", "BitTalk", "Blazor", "Blockchain", "Bluetooth",
   "Bootstrap", "Business Intelligence", "C#", "C++", "CakePHP", "Camunda", "CI/CD", "Citrix", "Cloud", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Computer Vision", "Confluence", "Cordova",
   "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dagger", "Dapper", "Dart", "Data-Science", "Data Vault", "Data Warehouse", "DevExpress", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout",
   "ElasticSearch", "Electron", "Elixir", "Embedded", "Embedded WebServer", "Ember", "ERP", "EPCIS", "Erlang", "ExpressJS", "ESLint", "Ethernet", "F#", "FPGA", "Fastlane", "Figma", "Firebase", "Firewall", "Flask", "Flink",
@@ -95,7 +95,7 @@ const perkTags = ["4 weeks vacation", "35-hour work week", "40-hour work week", 
   "Conferences", "Cool office", "Discounts for company products", "Equity or company stock", "Extra retirement contribution", "Flexible work time", "Free lunch", "Fresh fruits", "Fully home office / remote work", "Gym membership",
   "Home office / Remote 1 day per week", "Individual educational training budget", "International team", "Maternity/Paternity leave", "Mobile phone subscription", "Part-time possible",
   "Ping-pong table", "Pizza Day", "Public transport GA Travelcard", "Public transport Half-Fare", "Relocation support", "Sabbatical possibility", "Standing desk", "Startup culture",
-  "Sweets in the kitchen", "Table football", "Team social events", "Quiet office", "Vacation Bonus", "Well connected office"]
+  "Sweets in the kitchen", "Tableau", "Table football", "Team social events", "Quiet office", "Vacation Bonus", "Well connected office"]
 
 const specialExtractTag = (searchFor, tagToAdd, foundTechTags, textsToTest) => {
   const reg = new RegExp('[\\W_]+(' + searchFor.toLowerCase() + ')[\\W_]+', 'g')//matchTechTagSurroundedByNonLetters
