@@ -72,7 +72,7 @@ const theme = {
 }
 
 const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "AJAX", "API", "Appium", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android",
-  "Angular", "Ansible", "Apache HTTP Server", "Apollo", "Aruba", "Asterisk", "Avaloq", "Azure", "Big Data", "BPMN", "BSD ", "BSI CRM", "Backbone", "Backend", "Bamboo", "Bamboo", "Bash", "Beanstalk", "BitTalk", "Blazor", "Blockchain", "Bluetooth",
+  "Angular", "Ansible", "Apache HTTP Server", "Apollo", "Aruba", "Asterisk", "Avaloq", "Azure", "Big Data", "BPMN", "BSD ", "BSI CRM", "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "Blazor", "Blockchain", "Bluetooth",
   "Bootstrap", "Business Intelligence", "C#", "C++", "CakePHP", "Camunda", "CI/CD", "Citrix", "Cloud", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Computer Vision", "Confluence", "Cordova",
   "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dagger", "Dapper", "Dart", "Data-Science", "Data Vault", "Data Warehouse", "DevExpress", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout",
   "ElasticSearch", "Electron", "Elixir", "Embedded", "Embedded WebServer", "Ember", "ERP", "EPCIS", "Erlang", "ExpressJS", "ESLint", "Ethernet", "F#", "FPGA", "Fastlane", "Figma", "Firebase", "Firewall", "Flask", "Flink",
