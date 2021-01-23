@@ -97,6 +97,33 @@ const perkTags = ["4 weeks vacation", "35-hour work week", "40-hour work week", 
   "Ping-pong table", "Pizza Day", "Public transport GA Travelcard", "Public transport Half-Fare", "Relocation support", "Sabbatical possibility", "Standing desk", "Startup culture",
   "Sweets in the kitchen", "Table football", "Team social events", "Quiet office", "Vacation Bonus", "Well connected office"]
 
+const perkTagsTranslated = {
+  en: {
+    weeksvacation4: "4 weeks vacation",
+    weeksvacation5: "5 weeks vacation",
+    weeksvacation6: "6 weeks vacation",
+    accinsurance: "Accident insurance",
+  },
+  de: {
+    weeksvacation4: "4 Wochen Urlaub",
+    weeksvacation5: "5 Wochen Urlaub",
+    weeksvacation6: "6 Wochen Urlaub",
+    accinsurance: "Unfallversicherung",
+  },
+  fr: {
+    weeksvacation4: "4 semaines de vacances",
+    weeksvacation5: "5 semaines de vacances",
+    weeksvacation6: "6 semaines de vacances",
+    accinsurance: "Assurance d'accident",
+  },
+  ro: {
+    weeksvacation4: "4 săptămâni de vacanță",
+    weeksvacation5: "5 săptămâni de vacanță",
+    weeksvacation6: "6 săptămâni de vacanță",
+    accinsurance: "Asigurarea pentru accidente",
+  },
+}
+
 const specialExtractTag = (searchFor, tagToAdd, foundTechTags, textsToTest) => {
   const reg = new RegExp('[\\W_]+(' + searchFor.toLowerCase() + ')[\\W_]+', 'g')//matchTechTagSurroundedByNonLetters
   if (textsToTest.some(text => reg.test(text))) {
@@ -195,6 +222,7 @@ const extractPerksFrom = (jobForm, perkTags, companyData) => {
 module.exports = {
   techTags,
   perkTags,
+  perkTagsTranslated,
   theme,
   chipTheme,
   extractTechTagsFrom,
