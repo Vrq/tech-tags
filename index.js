@@ -72,10 +72,10 @@ const theme = {
 }
 
 const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "AJAX", "API", "Appium", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android",
-  "Angular", "Ansible", "Apache HTTP Server", "Apollo", "Aruba", "Asterisk", "Avaloq", "Azure", "Big Data", "BigQuery", "BPMN", "BSD ", "BSI CRM", "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "Blazor", "Blockchain", "Bluetooth",
-  "Bootstrap", "Business Intelligence", "C#", "C++", "CakePHP", "Camunda", "CI/CD", "Citrix", "Cloud", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Computer Vision", "Confluence", "Cordova",
+  "Angular", "Ansible", "Apache HTTP Server", "Apollo", "Aruba", "Asterisk", "Avaloq", "AUTOSAR", "Azure", "Big Data", "BigQuery", "BPMN", "BSD ", "BSI CRM", "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "Blazor", "Blockchain", "Bluetooth",
+  "Bootstrap", "Business Intelligence", "C", "C#", "C++", "CakePHP", "Camunda", "CAN", "CI/CD", "Citrix", "Cloud", "CMS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Computer Vision", "Confluence", "Cordova",
   "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dagger", "Dapper", "Dart", "Data-Science", "Data Vault", "Data Warehouse", "DevExpress", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout",
-  "ElasticSearch", "Electron", "Elixir", "Elm", "Embedded", "Embedded WebServer", "Ember", "ERP", "EPCIS", "Erlang", "ExpressJS", "ESLint", "Ethernet", "F#", "FPGA", "Fastlane", "Figma", "Firebase", "Firewall", "Fivetran", "Flask", "Flink",
+  "ElasticSearch", "Electron", "Elixir", "Elm", "Embedded", "Embedded WebServer", "Ember", "ERP", "EPCIS", "Erlang", "ExpressJS", "ESLint", "Ethernet", "F#", "FPGA", "Fastlane", "Figma", "Firebase", "Firewall", "Fivetran", "Flask", "Flexray", "Flink",
   "Flutter", "Frontend", "Fullstack", "GameDev", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "GitHub", "GitLab", "Golang", "Gradle", "Grafana", "GraphQL", "Groovy", "GUI Programming", "Gulp", "HSM", "HTTP", "HTML5", "Haskell", "Heroku",
   "Hibernate", "HL7", "IAM", "IBM", "IBM Db2", "IBM Spectrum", "ICT", "IaaS", "IdentityIQ", "IDoc", "Indesign", "InfiniBand", "Infor LN", "IntelliJ", "InVision", "Ionic", "IoT", "IT Support", "JBoss", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JUnit", "JWT", "Jasmine", "Java", "Java EE",
   "JavaFX", "JavaScript", "Jenkins", "Jest", "K2", "Kafka", "Kanban", "Karma", "Kotlin", "Kubernetes", "LDAP", "LESS", "Laravel", "Leaflet", "Linux", "Load Balancing", "Looker", "LWC",
