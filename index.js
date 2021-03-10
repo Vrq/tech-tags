@@ -266,7 +266,7 @@ const perkTagsTranslated = {
     wweek42: "42 de ore saptamana de lucru",
     wweek45: "45 de ore saptamana de lucru",
     accooler: "Aer conditionat",
-    retreat: "Retragere anuala a companiei",
+    retreat: "Evenimente de teambuilding",
     beer: "Bere",
     bonuspay: "Bonus de performanta",
     careerpath: "valuare anuala si dezvoltare cariera",
