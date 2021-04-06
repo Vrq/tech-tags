@@ -339,7 +339,7 @@ const extractTechTagsFrom = (jobForm, techTags) => {
   if (name.includes('backend') || name.includes('back-end') || name.includes('back end')) foundTechTags.add("Backend")
   if (name.includes('game')) foundTechTags.add("GameDev")
   if (name.includes('web')) foundTechTags.add("Web")
-
+  foundTechTags.delete("CAN")
   return [...foundTechTags]
 }
 
