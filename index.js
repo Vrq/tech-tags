@@ -374,6 +374,8 @@ const extractTechTagsFromStringArray = (stringsToTest, techTags) => {
   specialExtractTag("GCP", "Cloud", foundTechTags, stringsToTest)
   specialExtractTag("AWS", "Cloud", foundTechTags, stringsToTest)
   specialExtractTag("Azure", "Cloud", foundTechTags, stringsToTest)
+  specialExtractTag("Unity", "GameDev", foundTechTags, stringsToTest)
+  specialExtractTag("Unreal", "GameDev", foundTechTags, stringsToTest)
 
   return foundTechTags
 }
