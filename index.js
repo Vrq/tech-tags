@@ -85,7 +85,7 @@ const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Ab Initio", 
   "Python", "QA Testing", "Quobyte", "Qt", "Quarkus", "RDF", "RDMA", "REST", "RBAC", "RHEL", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React", "React Native", "Redgate", "Redis",
   "Redux", "RS-485", "Ruby", "Rust", "RxJs", "SAML", "SAP", "SAP Analytics Designer", "SAP Commerce", "SAP Fiori", "SAP Lumira", "SAP Web Intelligence", "SAS", "SASS", "SCSS", "SOAP", "SQL", "SQLite", "SailsJS", "Salesforce", "Scala", "Security", "Sensor Fusion", "SMB",
   "Selenium", "Sentry", "Serverless", "SharePoint", "Shopware", "Siebel", "SignalR", "Sketch", "Slack", "Solr", "Sonar", "Spark", "Splunk", "Spring", "Spring Boot", "SSAS", "SSIS", "strapi", "Svelte", "Swagger", "Swift", "Swing", "Symfony",
-  "System Engineer", "Tableau", "Talend", "TCP/IP", "TDD", "TSQL", "TYPO3", "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "TypeScript", "UML", "Ubuntu",
+  "System Engineer", "Tableau", "Talend", "TCP/IP", "TDD", "TSQL", "TYPO3", "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "Tosca", "TypeScript", "UML", "Ubuntu",
   "UiPath", "Uniface", "Unix", "Unity", "Unreal", "UX UI Design", "VBA", "VPN", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Video Streaming", "Visual Studio", "VS Code", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack", "WebServices",
   "Websphere", "Web", "Windows", "Windows Forms", "WordPress", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "dbt", "gRPC", "iOS", "jQuery",
   "microservices", "numpy", "opencv", "pandas", "pytest", "styled-components"]
