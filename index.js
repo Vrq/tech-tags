@@ -259,7 +259,7 @@ const perkTagsTranslated = {
     remote1day: "Bureau à domicile / à distance 1 jour par semaine",
     remote2day: "Bureau à domicile / à distance 2 jours par semaine",
     individualbudget: "Budget individuel de formation pédagogique",
-    intteam: "Équipe internationale",
+    intteam: "Equipe internationale",
     maternity: "Congé de maternité / paternité",
     mealtickets: "Tickets repas",
     phonesub: "Abonnement téléphone mobile",
@@ -276,7 +276,7 @@ const perkTagsTranslated = {
     startupculture: "Culture de démarrage",
     sweets: "Bonbons dans la cuisine",
     tablefoot: "Babyfoot",
-    teamevents: "Événements d'équipe",
+    teamevents: "Evénements d'équipe",
     quietoffice: "Bureau calme",
     vacationbonus: "Bonus de vacances",
     wellconnected: "Bureau bien connecté",
@@ -295,7 +295,7 @@ const perkTagsTranslated = {
     retreat: "Evenimente de teambuilding",
     beer: "Bere",
     bonuspay: "Bonus de performanta",
-    careerpath: "valuare anuala si dezvoltare cariera",
+    careerpath: "Valuare anuala si dezvoltare cariera",
     childcare: "Sprijin pentru ingrijirea copiilor",
     hardware: "Alegerea hardware-ului (ex tip laptop)",
     coffee: "Cafea, ceai",
@@ -339,6 +339,19 @@ const perkTagsTranslated = {
     wellconnected: "Birou bine conectat",
     workscouncil: "Consiliul de lucru",
   },
+}
+
+const getPerkTagsWithSiteSpecificTags = (siteName) => {
+  const thisSiteTags = siteSpecificPerkTagsTranslated[siteName]
+  if(thisSiteTags) {
+      return {
+          en: {...perkTagsTranslated.en, ...thisSiteTags.en},
+          de: {...perkTagsTranslated.de, ...thisSiteTags.de},
+          fr: {...perkTagsTranslated.fr, ...thisSiteTags.fr},
+          ro: {...perkTagsTranslated.ro, ...thisSiteTags.ro},
+      }
+  }
+  return perkTagsTranslated
 }
 
 const specialExtractTag = (searchFor, tagToAdd, foundTechTags, textsToTest) => {
@@ -443,6 +456,7 @@ module.exports = {
   perkTags,
   perkTagsTranslated,
   siteSpecificPerkTagsTranslated,
+  getPerkTagsWithSiteSpecificTags,
   theme,
   chipTheme,
   extractTechTagsFrom,
