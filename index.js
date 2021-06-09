@@ -84,10 +84,10 @@ const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Ab Initio", 
   "Oracle", "PHP", "PL SQL", "PWA", "PaaS", "Pardot", "Perl", "Phoenix", "Pimcore", "Play Framework", "Polymer", "PostgreSQL", "Postman", "Power BI", "PowerShell", "Prometheus", "Product Manager", "Product Owner", "Project Manager", "Puppet", "PyTorch",
   "Python", "QA Testing", "Quobyte", "Qt", "Quarkus", "RDF", "RDMA", "REST", "ReSharper", "RBAC", "RHEL", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React", "React Native", "Redgate", "Redis",
   "Redux", "RS-485", "Ruby", "Rust", "RxJs", "RxSwift", "SAML", "SAP", "SAP Analytics Designer", "SAP Commerce", "SAP Fiori", "SAP Lumira", "SAP Web Intelligence", "SAS", "SASS", "SCSS", "SOAP", "SQL", "SQLite", "SailsJS", "Salesforce", "Scala", "Security", "Sensor Fusion", "SMB",
-  "Selenium", "Sentry", "Serverless", "SharePoint", "Shopware", "Siebel", "SignalR", "Sketch", "Slack", "Solr", "Sonar", "Spark", "Splunk", "Spring", "Spring Boot", "SSAS", "SSIS", "strapi", "Svelte", "Swagger", "Swift", "Swing", "Symfony",
+  "Selenium", "Sentry", "Serverless", "SharePoint", "Shopware", "Shopify", "Siebel", "SignalR", "Sitecore", "Sketch", "Slack", "Solr", "Sonar", "Spark", "Splunk", "Spring", "Spring Boot", "Spryker", "SSAS", "SSIS", "strapi", "Svelte", "Swagger", "Swift", "Swing", "Symfony",
   "System Engineer", "Tableau", "Talend", "TCP/IP", "TDD", "TSQL", "TYPO3", "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "Tosca", "TypeScript", "UML", "Ubuntu", "UIKit",
   "UiPath", "Uniface", "Unix", "Unity", "Unreal", "UX UI Design", "VBA", "VPN", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Video Streaming", "Visual Studio", "VS Code", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack", "WebServices",
-  "Websphere", "Web", "Windows", "Windows Forms", "WordPress", "Xcode", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "dbt", "gRPC", "iOS", "jQuery",
+  "Websphere", "Web", "Windows", "Windows Forms", "Wix", "WordPress", "Xcode", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zend", "Zeplin", "Zookpeeper", "dbt", "gRPC", "iOS", "jQuery",
   "microservices", "numpy", "opencv", "pandas", "pytest", "styled-components"]
 
 const perkTags = ["4 weeks vacation", "35-hour work week", "40-hour work week", "42-hour work week", "45-hour work week", "5 weeks vacation", "6 weeks vacation",
@@ -343,13 +343,13 @@ const perkTagsTranslated = {
 
 const getPerkTagsWithSiteSpecificTags = (siteName) => {
   const thisSiteTags = siteSpecificPerkTagsTranslated[siteName]
-  if(thisSiteTags) {
-      return {
-          en: {...perkTagsTranslated.en, ...thisSiteTags.en},
-          de: {...perkTagsTranslated.de, ...thisSiteTags.de},
-          fr: {...perkTagsTranslated.fr, ...thisSiteTags.fr},
-          ro: {...perkTagsTranslated.ro, ...thisSiteTags.ro},
-      }
+  if (thisSiteTags) {
+    return {
+      en: { ...perkTagsTranslated.en, ...thisSiteTags.en },
+      de: { ...perkTagsTranslated.de, ...thisSiteTags.de },
+      fr: { ...perkTagsTranslated.fr, ...thisSiteTags.fr },
+      ro: { ...perkTagsTranslated.ro, ...thisSiteTags.ro },
+    }
   }
   return perkTagsTranslated
 }
