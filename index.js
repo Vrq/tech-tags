@@ -72,7 +72,7 @@ const theme = {
 }
 
 const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "Amazon DocumentDB", "ABAP", "AJAX", "API", "Appium", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android",
-  "Angular", "Ansible", "Apache Camel", "Apache CXF", "Apache HTTP Server", "Apollo", "Architect", "Aruba", "Asterisk", "Avaloq", "AUTOSAR", "Azure", "Big Data", "BigQuery", "BPMN", "BSD ", "BSI CRM", "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "Blazor", "Blockchain", "Bluetooth",
+  "Angular", "Ansible", "Apache Camel", "Apache CXF", "Apache HTTP Server", "Apollo", "Architect", "Aruba", "Asterisk", "Atlassian", "Avaloq", "AUTOSAR", "Azure", "Big Data", "BigQuery", "BPMN", "BSD ", "BSI CRM", "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "Blazor", "Blockchain", "Bluetooth",
   "Bootstrap", "Business Intelligence", "C", "C#", "C++", "CakePHP", "Camunda", "CAN", "CI/CD", "Citrix", "Cloud", "CMS", "Cosmos DB", "Craft CMS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "Cisco", "Clojure", "Cloud Foundry", "Composer", "Computer Vision", "Confluence", "Cordova",
   "CRM", "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dagger", "DApps", "Dapper", "Dart", "Data-Science", "Data Vault", "Data Warehouse", "Delphi", "DevExpress", "DevOps", "Django", "Docker", "Drupal", "E2E", "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout",
   "ElasticSearch", "Electron", "Elixir", "Elm", "Embedded", "Embedded WebServer", "Ember", "ERP", "EPCIS", "Erlang", "ExpressJS", "ESLint", "Ethereum", "Ethernet", "F#", "FPGA", "Fastlane", "Figma", "Firebase", "Firewall", "Fivetran", "FortiGate", "Flask", "Flexray", "Flink",
