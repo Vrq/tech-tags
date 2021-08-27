@@ -115,14 +115,17 @@ const siteSpecificPerkTagsTranslated = {
     en: {
       gatravel: "Public transport GA Travelcard",
       halffare: "Public transport Half-Fare",
+      rekachecks: "Reka Checks",
     },
     de: {
       gatravel: "Öffentliche Verkehrsmittel GA",
       halffare: "Öffentliche Verkehrsmittel Halbtax",
+      rekachecks: "Reka Checks",
     },
     fr: {
       gatravel: "Transport public l'abonnement général",
       halffare: "Transport public l’abonnement demi-tarif",
+      rekachecks: "Reka Checks",
     }
   },
   GDJ: null,
