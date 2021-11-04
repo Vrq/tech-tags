@@ -466,6 +466,7 @@ const extractTechTagsFrom = (jobForm, techTags) => {
   if (name.includes('game')) foundTechTags.add("GameDev")
   if (name.includes('web')) foundTechTags.add("Web")
   foundTechTags.delete("CAN")
+  foundTechTags.delete("R")
   return [...foundTechTags]
 }
 
