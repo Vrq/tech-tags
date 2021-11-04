@@ -504,6 +504,9 @@ const extractTechTagsFromStringArray = (stringsToTest, techTags) => {
   specialExtractTag("Unity", "GameDev", foundTechTags, stringsToTest)
   specialExtractTag("Unreal", "GameDev", foundTechTags, stringsToTest)
 
+  foundTechTags.delete("CAN")
+  foundTechTags.delete("R")
+  
   return foundTechTags
 }
 
