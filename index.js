@@ -84,7 +84,7 @@ const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Ab Initio", 
   "Grafana", "GraphQL", "Graph Database", "Groovy", "Grunt", "GUI Programming", "Gulp", "H2", "Handlebars", "HSM", "HTTP", "HTML5", "Haskell", "Helm", "Heroku",
   "Hibernate", "HL7", "IAM", "IBM", "IBM Db2", "IBM Mainframe", "IBM Spectrum", "IBM WebSphere", "ICT", "IaaS", "IdentityIQ", "IDoc", "Indesign", "InfiniBand",
   "Infor LN", "Informatica", "Integromat", "IntelliJ", "InVision", "Ionic", "IoT", "IT Support", "JBoss", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JUnit",
-  "Jupyter", "JWT", "Jasmine", "Java", "Java EE", "JavaFX", "JavaScript", "Jenkins", "Jest", "K2", "KVM", "Kafka", "Kanban", "Karma", "Keras", "Kibana", "Kotlin",
+  "Jupyter", "JWT", "Jasmine", "Java", "Java EE", "JavaFX", "JavaScript", "Jenkins", "Jest", "JMeter", "K2", "KVM", "Kafka", "Kanban", "Karma", "Keras", "Kibana", "Kotlin",
   "Kubernetes", "LDAP", "LESS", "Laravel", "Leaflet", "Linux", "Liquibase", "Load Balancing", "Looker", "LXC", "LWC", "MS-SQL", "MacBook", "Machine Learning", "Magento",
   "MariaDB", "Marketing", "Marvel", "Material UI", "Matlab", "Maven", "MediaWiki", "Mesos", "Meteor", "Microsoft BizTalk Server", "Microsoft Dynamics 365 BC",
   "Microsoft Dynamics 365 CRM", "Microsoft Dynamics 365 NAV",
@@ -506,7 +506,7 @@ const extractTechTagsFromStringArray = (stringsToTest, techTags) => {
 
   foundTechTags.delete("CAN")
   foundTechTags.delete("R")
-  
+
   return foundTechTags
 }
 
