@@ -77,7 +77,7 @@ const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Ab Initio", 
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "Bubble", "Business Intelligence",
   "C", "C#", "C++", "CakePHP", "Camunda", "CAN", "CI/CD", "Citrix", "Cloud", "CMS", "Cosmos DB", "Craft CMS", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph",
   "Cisco", "Clojure", "Cloud Foundry", "Composer", "Computer Vision", "Confluence", "Cordova", "CRM", "Cubeware", "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dagger",
-  "DApps", "Dapper", "Dart", "Data-Science", "Data Vault", "Data Warehouse", "Datadog", "Delphi", "DevExpress", "DevOps", "Django", "Docker", "Doctrine", "Drupal", "E2E",
+  "DApps", "Dapper", "Dart", "Data-Engineer", "Data-Science", "Data Vault", "Data Warehouse", "Datadog", "Delphi", "DevExpress", "DevOps", "Django", "Docker", "Doctrine", "Drupal", "E2E",
   "EC2", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout", "ElasticSearch", "Electron", "Elixir", "Elm", "Embedded", "Embedded WebServer", "Ember", "ERP",
   "EPCIS", "Erlang", "ExpressJS", "ESLint", "Ethereum", "Ethernet", "F#", "FPGA", "Fastlane", "Figma", "Firebase", "Firewall", "Firmware", "Fivetran", "FortiGate", "Flask",
   "Flexray", "Flink", "Flutter", "FreeRTOS", "Frontend", "Fullstack", "GameDev", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "GitHub", "GitLab", "Golang", "Gradle",
@@ -138,7 +138,17 @@ const siteSpecificPerkTagsTranslated = {
       bookster: "Abonament Bookster"
     }
   },
-  UKJ: null
+  UKJ: {
+    en: {
+      unlimitedpto: "Unlimited PTO"
+    }
+  },
+  USJ: {
+    en: {
+      match401k: "401K match",
+      unlimitedpto: "Unlimited PTO"
+    }
+  }
 }
 
 const perkTagsTranslated = {
