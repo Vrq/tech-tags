@@ -138,6 +138,14 @@ const siteSpecificPerkTagsTranslated = {
       bookster: "Abonament Bookster"
     }
   },
+  NDJ: {
+    en: {
+      collectiveinsurance: "Collective health insurance"
+    },
+    nl: {
+      collectiveinsurance: "Collectieve zorgverzekering"
+    }
+  },
   UKJ: {
     en: {
       unlimitedpto: "Unlimited PTO"
@@ -166,7 +174,7 @@ const perkTagsTranslated = {
     accooler: "AC cooler",
     retreat: "Annual company retreat",
     beer: "Beer",
-    bonuspay: "Bonus pay",
+    bonuspay: "Annual Bonus pay",
     careerpath: "Career paths and annual reviews",
     childcare: "Childcare support",
     hardware: "Choose your hardware",
@@ -224,7 +232,7 @@ const perkTagsTranslated = {
     accooler: "AC-Kühler",
     retreat: "Jährlicher Firmenretreat",
     beer: "Bier",
-    bonuspay: "Bonuszahlung",
+    bonuspay: "Jährliche Bonuszahlung",
     careerpath: "Karriereweg und Jahresrückblick",
     childcare: "Kinderbetreuung",
     hardware: "Hardware-Wahl",
@@ -340,7 +348,7 @@ const perkTagsTranslated = {
     accooler: "AC-koeler",
     retreat: "Jaarlijks bedrijfsuitje",
     beer: "Bier",
-    bonuspay: "Bonusbetaling",
+    bonuspay: "Eindejaarsuitkering",
     careerpath: "Loopbaantrajecten en jaaroverzichten",
     childcare: "Kinderopvang ondersteuning",
     hardware: "Kies je hardware",
