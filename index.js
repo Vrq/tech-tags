@@ -485,7 +485,6 @@ const extractTechTagsFrom = (jobForm, techTags) => {
     jobForm.technologies && jobForm.technologies.forEach(tech => { if (tech.toLowerCase() === lowCaseTechTag) foundTechTags.add(techTag) })
     if (jobForm.techCategory && jobForm.techCategory.toLowerCase() === lowCaseTechTag) foundTechTags.add(techTag)
   })
-  if (jobForm.techCategory === "Dev-Ops") foundTechTags.add("DevOps")
   if (jobForm.techCategory === "UI-UX-Designer") foundTechTags.add("UX UI Design")
   const name = jobForm.name && jobForm.name.toLowerCase() || ""
   if (name.includes('fullstack') || name.includes('full-stack') || name.includes('full stack')) foundTechTags.add("Fullstack")
