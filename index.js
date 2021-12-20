@@ -460,6 +460,7 @@ const getPerkTagsWithSiteSpecificTags = (siteName) => {
       de: { ...perkTagsTranslated.de, ...thisSiteTags.de },
       fr: { ...perkTagsTranslated.fr, ...thisSiteTags.fr },
       ro: { ...perkTagsTranslated.ro, ...thisSiteTags.ro },
+      nl: { ...perkTagsTranslated.nl, ...thisSiteTags.nl },
     }
   }
   return perkTagsTranslated
