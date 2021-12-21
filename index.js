@@ -71,7 +71,7 @@ const theme = {
   }
 }
 
-const techTags = [".NET Core", ".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "Airtable", "Amazon DocumentDB",
+const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "Airtable", "Amazon DocumentDB",
   "ABAP", "AJAX", "API", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
   "Apache HTTP Server", "Apollo", "Architect", "ArchiMate", "Aruba", "Asterisk", "Atlassian", "Avaloq", "AUTOSAR", "Azure", "Big Data", "BigQuery", "BPMN", "BSD ", "BSI CRM",
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "BiZZdesign", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "Bubble", "Business Intelligence",
