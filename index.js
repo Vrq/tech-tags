@@ -99,7 +99,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Shopify", "Siebel", "SignalR", "Sitecore", "Sketch", "Slack", "Solidity", "Solr", "Sonar", "Spark", "SpecFlow", "Splunk", "Spring", "Spring Boot", "Spryker", "SSAS", "SSIS",
   "strapi", "STM32CubeIDE", "Svelte", "Swagger", "Swift", "Swing", "Symfony", "System Engineer", "SystemVerilog", "Tableau", "Talend", "TCP/IP", "TDD", "TIBCO", "TM1", "TMap", "TSQL", "TYPO3",
   "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "Tosca", "TypeScript", "Twig", "TwinCAT", "UML", "Ubuntu", "UIKit", "UiPath", "Umbraco", "Uniface", "Unix",
-  "Unity", "Unreal", "UVM", "UX UI Design", "VBA", "VPN", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Verilog", "VHDL", "Video Streaming",
+  "Unity", "Unreal", "UVM", "UX UI Design", "VBA", "VPN", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Verilog", "VHDL", "Video Streaming", "Visual Basic",
   "Visual Paradigm", "Visual Studio", "VS Code", "Vue", "WAF", "WPF", "Web3", "WebGL", "Webpack", "WebServices", "Websphere", "Web", "Webflow", "Windows",
   "Windows Forms", "Wix", "WordPress", "Xcode", "Xdebug", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zapier", "Zend", "Zendesk", "Zeplin", "Zookpeeper",
   "dbt", "gRPC", "iOS", "jQuery", "microservices", "numpy", "opencv", "pandas", "pytest", "styled-components"]
