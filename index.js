@@ -351,7 +351,7 @@ const perkTagsTranslated = {
     weeksvacation5: "5 weken vakantie",
     weeksvacation6: "6 weken vakantie",
     buymorevacation: "Optie om vakantiedagen bij te kopen",
-    unlimitedvacation: "Onbeperkte vakantie",
+    unlimitedvacation: "Onbeperkt vakantiedagen",
     accinsurance: "Ongevallenverzekering",
     wweek35: "35-urige werkweek",
     wweek40: "40-urige werkweek",
