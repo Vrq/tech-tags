@@ -73,7 +73,7 @@ const theme = {
 
 const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "Airtable", "Amazon DocumentDB",
   "ABAP", "AJAX", "API", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
-  "Apache HTTP Server", "Apollo", "Architect", "ArchiMate", "Aruba", "Asterisk", "Atlassian", "Avaloq", "AUTOSAR", "Azure", "Babel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
+  "Apache HTTP Server", "Apollo", "Architect", "ArchiMate", "Arduino", "Aruba", "Asterisk", "Atlassian", "Avaloq", "AUTOSAR", "Azure", "Babel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "Bitrix24", "BiZZdesign", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "Bubble", "Business Intelligence", "B&R Automation Studio",
   "C", "C#", "C++", "CakePHP", "Camunda", "CAN", "CI/CD", "Citrix", "Cloud", "CMS", "Cosmos DB", "Craft CMS", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "CheckMK",
   "Cisco", "Clojure", "Cloud Foundry", "ColdFusion", "Composer", "Computer Vision", "Confluence", "Cordova", "CRM", "Cubeware", "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dagger",
@@ -93,7 +93,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "PL SQL", "PLC", "PWA", "PaaS", "Pacemaker", "Pardot", "Perl", "Phoenix", "Pimcore", "Play Framework", "plentymarkets", "Polymer", "PostgreSQL", "Postman", "Power BI", "PowerBuilder",
   "PowerShell", "PrestaShop", "Prometheus", "Product Manager", "Product Owner", "Progress OpenEdge", "Profibus", "Profinet", "Project Manager", "Protractor", "Puppet", "PyTorch", "Python",
   "QA Testing", "QEMU", "Quobyte", "Qt", "Quarkus", "R", "RDF", "RDMA", "REST", "ReSharper", "RBAC", "RHEL", "RIS", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React",
-  "React Native", "ReactiveX", "Redgate", "Redis", "Redux", "RevPi", "Robot Framework", "RS-485", "Ruby", "Rust", "RxJs", "RxSwift", "SAML", "SAP",
+  "React Native", "ReactiveX", "Redgate", "Redis", "Redux", "RevPi", "Robot Framework", "Robotics", "RS-485", "Ruby", "Rust", "RxJs", "RxSwift", "SAML", "SAP",
   "SAP Analytics Designer", "SAP Commerce", "SAP Fiori", "SAP Lumira", "SAP Web Intelligence", "SAS", "SASS", "SCSS", "SOAP", "SPS", "SQL", "SQLite",
   "SailsJS", "Salesforce", "Scala", "Security", "Sensor Fusion", "SMB", "Selenium", "Sentry", "Serverless", "ServiceNow", "SharePoint", "Shopware",
   "Shopify", "Siebel", "SignalR", "Sitecore", "Sketch", "Slack", "Solidity", "Solr", "Sonar", "Spark", "SpecFlow", "Splunk", "Spring", "Spring Boot", "Spryker", "SSAS", "SSIS", "SVN",
