@@ -86,7 +86,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Infor LN", "Informatica", "Integromat", "IntelliJ", "InVision", "Ionic", "IoT", "Istio", "ISTQB", "IT Support", "Jackson", "JAXB", "JBoss", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JUnit",
   "Jupyter", "JTA", "JWT", "Jasmine", "Java", "Java EE", "JavaFX", "JavaScript", "Jenkins", "Jest", "Jitsi", "JMeter", "K2", "KIS", "KVM", "Kafka", "Kanban", "Karma",
   "Keras", "Kibana", "Kotlin", "Kubernetes", "LDAP", "LESS", "LIS", "Laravel", "Leaflet", "Linux", "Liquibase", "LLVM", "Load Balancing", "Looker", "LXC",
-  "LWC", "MS-SQL", "MacBook", "Machine Learning", "Magento", "MariaDB", "Marketing", "Marvel", "Material UI", "Matlab", "Matrix", "Maven", "MediaWiki",
+  "LWC", "MS-SQL", "macOS", "MacBook", "Machine Learning", "Magento", "MariaDB", "Marketing", "Marvel", "Material UI", "Matlab", "Matrix", "Maven", "MediaWiki",
   "Mesos", "Meteor", "Microsoft BizTalk Server", "Microsoft Dynamics 365 BC", "Microsoft Dynamics 365 CRM", "Microsoft Dynamics 365 NAV", "MuleSoft",
   "Mustache", "Mobile", "MongoDB", "Motoko", "MS Teams", "MQTT", "MVC", "MVVM", "MySQL", "NAT", "Neo4J", "Network", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NHibernate",
   "NodeJS", "NoSQL", "NPM", "NuxtJS", "ODI", "OSS", "OWASP", "Objective-C", "OAuth", "OCaml", "Odoo", "Office 365", "Open-E JovianDSS", "OpenGL", "OpenID", "OpenLayers", "OpenShift", "OpenStack", "OpenTripPlanner", "Oracle", "PACS", "PHP",
