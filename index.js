@@ -73,7 +73,7 @@ const theme = {
 
 const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "Airtable", "Akeneo", "Amazon DocumentDB",
   "ABAP", "AJAX", "API", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Alteryx", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
-  "Apache HTTP Server", "Apollo", "Architect", "ArchiMate", "Arduino", "Aruba", "Asterisk", "Atlassian", "Attraqt", "Avaloq", "AUTOSAR", "Azure", "Babel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
+  "Apache HTTP Server", "Apollo", "Architect", "ArchiMate", "Arduino", "Aruba", "asyncio", "Asterisk", "Atlassian", "Attraqt", "Avaloq", "AUTOSAR", "Azure", "Babel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "trix24", "BiZZdesign", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "BrowserStack", "Bubble", "Business Intelligence", "B&R Automation Studio",
   "C", "C#", "C++", "CakePHP", "Camunda", "CAN", "CI/CD", "Citrix", "Cloud", "CMS", "Cosmos DB", "Craft CMS", "Cryptography", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "CheckMK",
   "Cisco", "Clojure", "Cloud Foundry", "ColdFusion", "Composer", "Computer Vision", "Confluence", "Cordova", "CRM", "Cubeware", "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dagger",
@@ -88,7 +88,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Keras", "Kibana", "Kotlin", "Kubernetes", "LDAP", "LESS", "LIS", "Laravel", "Leaflet", "Linux", "Liquibase", "LLVM", "Load Balancing", "Looker", "LXC",
   "LWC", "MS-SQL", "macOS", "MacBook", "Machine Learning", "Magento", "MariaDB", "Marketing", "Marvel", "Material UI", "Matlab", "Matrix", "Maven", "MediaWiki",
   "Mesos", "Meteor", "Microsoft 365", "Microsoft BizTalk Server", "Microsoft Dynamics 365 BC", "Microsoft Dynamics 365 CRM", "Microsoft Dynamics 365 NAV", "Microsoft Intune", "MuleSoft",
-  "Mustache", "Mobile", "MongoDB", "mongoose", "Motoko", "MS Teams", "MQTT", "MVC", "MVVM", "MySQL", "NAT", "Neo4J", "Network", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NHibernate",
+  "Mustache", "Mobile", "MongoDB", "mongoose", "Motoko", "MS Teams", "MQTT", "MVC", "MVVM", "MySQL", "NAT", "NATS", "Neo4J", "Network", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NHibernate",
   "NodeJS", "NoSQL", "NPM", "NuxtJS", "ODI", "OSS", "OWASP", "Objective-C", "OAuth", "OCaml", "Odoo", "Office 365", "Open-E JovianDSS", "OpenGL", "OpenID", "OpenLayers", "OpenShift", "OpenStack", "OpenTripPlanner", "Oracle", "PACS", "PHP",
   "PL SQL", "PLC", "PWA", "PaaS", "Pacemaker", "Pardot", "Perl", "Phoenix", "Pimcore", "Play Framework", "plentymarkets", "Polymer", "PostgreSQL", "Postman", "Power BI", "PowerBuilder",
   "PowerShell", "PrestaShop", "Prometheus", "Product Manager", "Product Owner", "Progress OpenEdge", "Profibus", "Profinet", "Project Manager", "Protractor", "Puppet", "PyTorch", "Python", "PySpark",
