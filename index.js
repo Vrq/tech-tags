@@ -72,7 +72,7 @@ const theme = {
 }
 
 const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "Airtable", "Akeneo", "Amazon DocumentDB",
-  "ABAP", "AJAX", "API", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "Alteryx", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
+  "ABAP", "AJAX", "API", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "AlpineJS", "Alteryx", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
   "Apache HTTP Server", "Apollo", "Architect", "ArchiMate", "Arduino", "Aruba", "asyncio", "Asterisk", "Atlassian", "Attraqt", "Avaloq", "AUTOSAR", "Azure", "Babel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "trix24", "BiZZdesign", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "BrowserStack", "Bubble", "Business Intelligence", "B&R Automation Studio",
   "C", "C#", "C++", "CakePHP", "Camunda", "CAN", "CI/CD", "Citrix", "Cloud", "CMS", "Cosmos DB", "Craft CMS", "Cryptography", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "CheckMK",
@@ -97,7 +97,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "SAP Analytics Designer", "SAP Commerce", "SAP CS", "SAP EWM", "SAP FICO", "SAP Fiori", "SAP Lumira", "SAP MM", "SAP PM", "SAP QM", "SAP Web Intelligence", "SAS", "SASS", "SCSS", "SEV", "SGX", "SOAP", "SPS", "SQL", "SQLite",
   "SailsJS", "Salesforce", "Scala", "Security", "Sensor Fusion", "SMB", "Selenium", "Sentry", "Serverless", "ServiceNow", "SharePoint", "Shopware",
   "Shopify", "Siebel", "SignalR", "Sitecore", "Sketch", "Slack", "Smart-Cards", "Snowflake", "Solidity", "Solr", "Sonar", "Spark", "SpecFlow", "Splunk", "Spring", "Spring Boot", "Spryker", "SSAS", "SSIS", "SVN",
-  "strapi", "STM32CubeIDE", "Svelte", "Swagger", "Swift", "Swing", "Symfony", "System Engineer", "SystemVerilog", "Tableau", "Talend", "TCP/IP", "TDD", "TIBCO", "TM1", "TMap", "TSQL", "TYPO3",
+  "strapi", "STM32CubeIDE", "Svelte", "Swagger", "Swift", "Swing", "Symfony", "System Engineer", "SystemVerilog", "Tableau", "TailwindCSS", "Talend", "TCP/IP", "TDD", "TIBCO", "TM1", "TMap", "TSQL", "TYPO3",
   "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "Tosca", "TypeScript", "Twig", "TwinCAT", "UML", "Ubuntu", "UIKit", "UiPath", "Umbraco", "Uniface", "Unix",
   "Unity", "Unreal", "UVM", "UX UI Design", "VBA", "VPN", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Verilog", "Vertx", "VHDL", "Video Streaming", "Visual Basic",
   "Visual Paradigm", "Visual Studio", "VS Code", "Vue", "Vuetify", "WAF", "WPF", "Web3", "WebAssembly", "WebGL", "Webpack", "WebServices", "Websphere", "Web", "Webflow", "Windows",
