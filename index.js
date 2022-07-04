@@ -96,7 +96,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "React Native", "ReactiveX", "Redgate", "Redis", "Redux", "RevPi", "Robot Framework", "Robotics", "RS-485", "Ruby", "Rust", "RxJava", "RxJs", "RxSwift", "S4HANA", "SAML", "SAP", "SAPUI5",
   "SAP Analytics Designer", "SAP Commerce", "SAP CS", "SAP EWM", "SAP FICO", "SAP Fiori", "SAP Lumira", "SAP MM", "SAP PM", "SAP QM", "SAP Web Intelligence", "SAS", "SASS", "SCSS", "SEV", "SGX", "SOAP", "SPS", "SQL", "SQLite",
   "SailsJS", "Salesforce", "Scala", "Security", "Sensor Fusion", "SMB", "Selenium", "Sentry", "Serverless", "ServiceNow", "SharePoint", "Shopware",
-  "Shopify", "Siebel", "SignalR", "Sitecore", "Sketch", "Slack", "Smart-Cards", "Snowflake", "Solidity", "Solr", "Sonar", "Spark", "SpecFlow", "Splunk", "Spring", "Spring Boot", "Spryker", "SSAS", "SSIS", "SVN",
+  "Shopify", "Siebel", "SignalR", "Sitecore", "Sketch", "Slack", "Smart-Cards", "Snowflake", "Solidity", "Solr", "Sonar", "Spark", "SpecFlow", "Splunk", "Spring", "Spring Boot", "Spryker", "SSAS", "SSIS", "SVN", "Storybook",
   "strapi", "STM32CubeIDE", "Svelte", "Swagger", "Swift", "Swing", "Symfony", "System Engineer", "SystemVerilog", "Tableau", "TailwindCSS", "Talend", "TCP/IP", "TDD", "TIBCO", "TM1", "TMap", "TSQL", "TYPO3",
   "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "Tosca", "TypeScript", "Twig", "TwinCAT", "UML", "Ubuntu", "UIKit", "UiPath", "Umbraco", "Uniface", "Unix",
   "Unity", "Unreal", "UVM", "UX UI Design", "VBA", "VPN", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Verilog", "Vertx", "VHDL", "Video Streaming", "Visual Basic",
