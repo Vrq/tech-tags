@@ -91,7 +91,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Mustache", "Mobile", "MongoDB", "mongoose", "Motoko", "MS Teams", "MQTT", "MVC", "MVVM", "MySQL", "NAT", "NATS", "Neo4J", "Network", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NHibernate",
   "NodeJS", "NoSQL", "NPM", "NuxtJS", "ODI", "OSS", "OWASP", "Objective-C", "OAuth", "OCaml", "Odoo", "Office 365", "Open-E JovianDSS", "OpenGL", "OpenID", "OpenLayers", "OpenShift", "OpenStack", "OpenTripPlanner", "Oracle", "PACS", "PHP",
   "PL SQL", "PLC", "PWA", "PaaS", "Pacemaker", "Pardot", "Perl", "Phoenix", "Pimcore", "Play Framework", "plentymarkets", "Polymer", "PostgreSQL", "Postman", "Power BI", "PowerBuilder",
-  "PowerShell", "PrestaShop", "Prometheus", "Product Manager", "Product Owner", "Progress OpenEdge", "Profibus", "Profinet", "Project Manager", "Protractor", "Puppet", "PyTorch", "Python", "PySpark",
+  "PowerShell", "PrestaShop", "Prisma", "Prometheus", "Product Manager", "Product Owner", "Progress OpenEdge", "Profibus", "Profinet", "Project Manager", "Protractor", "Puppet", "PyTorch", "Python", "PySpark",
   "QA Testing", "QEMU", "Quobyte", "Qt", "Quarkus", "R", "RDF", "RDMA", "REST", "ReSharper", "RBAC", "RHEL", "RIS", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React",
   "React Native", "ReactiveX", "Redgate", "Redis", "Redux", "RevPi", "Robot Framework", "Robotics", "RS-485", "Ruby", "Rust", "RxJava", "RxJs", "RxSwift", "S4HANA", "SAML", "SAP", "SAPUI5",
   "SAP Analytics Designer", "SAP Commerce", "SAP CS", "SAP EWM", "SAP FICO", "SAP Fiori", "SAP Lumira", "SAP MM", "SAP PM", "SAP QM", "SAP Web Intelligence", "SAS", "SASS", "SCSS", "SEV", "SGX", "SOAP", "SPS", "SQL", "SQLite",
