@@ -550,7 +550,7 @@ const extractTechTagsFromStringArray = (stringsToTest, techTags) => {
   specialExtractTag("Domain Driven", "DDD", foundTechTags, stringsToTest)
   specialExtractTag("365", "Office 365", foundTechTags, stringsToTest)
   specialExtractTag("O365", "Office 365", foundTechTags, stringsToTest)
-  specialExtractTag("Go", "Golang", foundTechTags, stringsToTest)
+  // specialExtractTag("Go", "Golang", foundTechTags, stringsToTest) IT DOES NOT WORK with Go because it fetches random occurences of "go" word
   specialExtractTag("UX", "UX UI Design", foundTechTags, stringsToTest)
   specialExtractTag("UI", "UX UI Design", foundTechTags, stringsToTest)
   specialExtractTag("JEE", "Java EE", foundTechTags, stringsToTest)
