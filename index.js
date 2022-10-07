@@ -73,7 +73,7 @@ const theme = {
 
 const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "Airtable", "Akeneo", "Amazon DocumentDB",
   "ABAP", "AJAX", "API", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "AlpineJS", "Alteryx", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
-  "Apache HTTP Server", "Apollo", "ArangoDB", "Architect", "ArchiMate", "Arduino", "Aruba", "asyncio", "Asterisk", "Atlassian", "Attraqt", "Avaloq", "AUTOSAR", "Azure", "Babel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
+  "Apache HTTP Server", "Apollo", "ArangoDB", "Architect", "ArchiMate", "Arduino", "ArgoCD", "Aruba", "asyncio", "Asterisk", "Atlassian", "Attraqt", "Avaloq", "AUTOSAR", "Azure", "Babel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "trix24", "BiZZdesign", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "BrowserStack", "Bubble", "Business Intelligence", "B&R Automation Studio",
   "C", "C#", "C++", "CAFM", "CakePHP", "Camunda", "CAN", "CI/CD", "Citrix", "ClickUp", "Cloud", "CMMS", "CMS", "CodeIgniter", "Cosmos DB", "Craft CMS", "Cryptography", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "CheckMK",
   "Cisco", "Clojure", "Cloud Foundry", "ColdFusion", "Composer", "Computer Vision", "Confluence", "Cordova", "CRM", "Cubeware", "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "Dagger",
