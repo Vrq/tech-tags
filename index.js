@@ -72,7 +72,7 @@ const theme = {
 }
 
 const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "Airtable", "Akeneo", "Amazon DocumentDB",
-  "ABAP", "AJAX", "API", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "AlpineJS", "Alteryx", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
+  "ABAP", "AJAX", "API", "Apigee", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "AlpineJS", "Alteryx", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
   "Apache HTTP Server", "Apollo", "ArangoDB", "Architect", "ArchiMate", "Arduino", "ArgoCD", "Aruba", "asyncio", "Asterisk", "Atlassian", "Attraqt", "Avaloq", "AUTOSAR", "Azure", "Babel", "Bazel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "trix24", "BiZZdesign", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "BrowserStack", "Bubble", "Business Intelligence", "B&R Automation Studio",
   "C", "C#", "C++", "CAFM", "CakePHP", "Camunda", "CAN", "CI/CD", "Citrix", "ClickUp", "Cloud", "CMMS", "CMS", "CodeIgniter", "Cosmos DB", "Craft CMS", "Cryptography", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "CheckMK",
@@ -83,7 +83,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Flexray", "Flink", "Flutter", "FreeRTOS", "Frontend", "Fullstack", "GameDev", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "GitHub", "GitLab", "GitOps", "Golang", "Gradle",
   "Grafana", "GraphQL", "Graph Database", "Graphite", "Graylog", "Groovy", "Grunt", "GUI Programming", "Gulp", "H2", "Hadoop", "Handlebars", "Hardware", "HSM", "HTTP", "HTML5", "Haskell", "Helm", "Heroku",
   "Hibernate", "Hive", "HL7", "IAM", "IBM", "IBM Db2", "IBM Mainframe", "IBM Spectrum", "IBM WebSphere", "ICT", "IaaS", "Icinga", "IdentityIQ", "IDoc", "Indesign", "InfiniBand",
-  "Infor LN", "Informatica", "Integromat", "IntelliJ", "InVision", "Ionic", "IoT", "Istio", "ISTQB", "IT Support", "Jackson", "JAXB", "JBoss", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JVM", "JUnit",
+  "Infor LN", "Informatica", "Instana", "Integromat", "IntelliJ", "InVision", "Ionic", "IoT", "Istio", "ISTQB", "IT Support", "Jackson", "JAXB", "JBoss", "JFrog", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JVM", "JUnit",
   "Jupyter", "JTA", "JWT", "Jasmine", "Java", "Java EE", "JavaFX", "JavaScript", "Jenkins", "Jest", "Jitsi", "JMeter", "K2", "KIS", "KVM", "Kafka", "Kanban", "Karma",
   "Keras", "Kibana", "Kotlin", "Kubernetes", "LDAP", "LESS", "LIS", "Laravel", "Leaflet", "Linux", "Liquibase", "LLVM", "Load Balancing", "Looker", "LXC",
   "LWC", "MS-SQL", "macOS", "MacBook", "Machine Learning", "Magento", "MariaDB", "Marketing", "Marvel", "Material UI", "Matlab", "Matrix", "Maven", "MediaWiki",
