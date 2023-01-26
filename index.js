@@ -91,7 +91,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Mustache", "Mobile", "MongoDB", "mongoose", "Motoko", "MS Teams", "MQTT", "MVC", "MVVM", "MySQL", "NAT", "NATS", "Neo4J", "Network", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NgRx", "NHibernate",
   "NodeJS", "NoSQL", "NPM", "NuxtJS", "ODI", "OSS", "OWASP", "Objective-C", "OAuth", "OCaml", "Odoo", "Office 365", "OOP", "Open-E JovianDSS", "OpenGL", "OpenID",
   "OpenLayers", "OpenShift", "OpenStack", "OpenTripPlanner", "Oracle", "PACS", "PHP", "PhpStorm", "PHPUnit",
-  "PL SQL", "PLC", "PWA", "PaaS", "Pacemaker", "Pardot", "Perl", "Phoenix", "Pimcore", "Play Framework", "plentymarkets", "Polymer", "PostgreSQL", "Postman", "Power BI", "PowerBuilder",
+  "PL SQL", "PLC", "PWA", "PaaS", "Pacemaker", "Pardot", "Perl", "Phoenix", "Pimcore", "Play Framework", "plentymarkets", "Podman", "Polymer", "PostgreSQL", "Postfix", "Postman", "Power BI", "PowerBuilder",
   "PowerShell", "PrestaShop", "Prisma", "Prometheus", "Product Manager", "Product Owner", "Progress OpenEdge", "Profibus", "Profinet", "Project Manager", "Protractor", "Puppet", "PyTorch", "Python", "PySpark",
   "QA Testing", "QEMU", "Quobyte", "Qt", "Quarkus", "R", "RDF", "RDMA", "REST", "ReSharper", "RBAC", "RHEL", "RIS", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React",
   "React Native", "ReactiveX", "Redgate", "Redis", "Redux", "RevPi", "Robot Framework", "Robotics", "RS-485", "Ruby", "Rust", "RxJava", "RxJs", "RxSwift", "S4HANA", "SAML", "SAP", "SAPUI5",
@@ -102,7 +102,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "Tosca", "TypeDB", "TypeQL", "TypeScript", "Twig", "TwinCAT", "UML", "Ubuntu", "UIKit", "UiPath", "Umbraco", "Uniface", "Unix",
   "Unity", "Unreal", "UVM", "UX UI Design", "VBA", "VPN", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Verilog", "Vertx", "VHDL", "Video Streaming", "Visual Basic",
   "Visual Paradigm", "Visual Studio", "VS Code", "Vue", "Vuetify", "WAF", "WPF", "Web3", "WebAssembly", "WebGL", "Webpack", "WebServices", "Websphere", "Web", "Webflow", "Windows",
-  "Windows Forms", "Wix", "WordPress", "Xcode", "Xdebug", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zapier", "Zend", "Zendesk", "Zeplin", "ZooKeeper",
+  "Windows Forms", "Wix", "WordPress", "Xcode", "Xdebug", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zabbix", "Zapier", "Zend", "Zendesk", "Zeplin", "ZooKeeper",
   "dbt", "gRPC", "iOS", "jQuery", "microservices", "numpy", "opencv", "pandas", "pytest", "styled-components"]
 
 const perkTags = ["4 weeks vacation", "35-hour work week", "40-hour work week", "42-hour work week", "45-hour work week", "5 weeks vacation", "6 weeks vacation",
