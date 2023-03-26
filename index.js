@@ -88,7 +88,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Keras", "Kibana", "Kotlin", "Kubernetes", "LDAP", "LESS", "LIS", "Laravel", "Leaflet", "Linux", "Liquibase", "LLVM", "Load Balancing", "Looker", "LXC",
   "LWC", "MS-SQL", "macOS", "MacBook", "Machine Learning", "Magento", "MariaDB", "Marketing", "Marvel", "Material UI", "Matlab", "Matrix", "Maven", "MediaWiki",
   "Mesos", "Meteor", "Microsoft 365", "Microsoft BizTalk Server", "Microsoft Dynamics 365 BC", "Microsoft Dynamics 365 CRM", "Microsoft Dynamics 365 NAV", "Microsoft Intune", "Microsoft Power Platform", "Mocha", "MuleSoft",
-  "Mustache", "Mobile", "MongoDB", "mongoose", "Motoko", "MS Teams", "MQTT", "MVC", "MVVM", "MySQL", "NAT", "NATS", "Neo4J", "Neos", "Network", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NgRx", "NHibernate",
+  "Mustache", "Mobile", "MongoDB", "mongoose", "Motoko", "MS Teams", "MQTT", "MVC", "MVVM", "MySQL", "NAT", "NATS", "Neo4J", "Neos", "NestJS", "Network", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NgRx", "NHibernate",
   "NodeJS", "NoSQL", "NPM", "NuxtJS", "ODI", "OSS", "OWASP", "Objective-C", "OAuth", "OCaml", "Odoo", "Office 365", "OOP", "Open-E JovianDSS", "OpenGL", "OpenID",
   "OpenLayers", "OpenShift", "OpenStack", "OpenTripPlanner", "Oracle", "PACS", "PHP", "PhpStorm", "PHPUnit",
   "PL SQL", "PLC", "PWA", "PaaS", "Pacemaker", "PagerDuty", "Pardot", "Perl", "Phoenix", "Pimcore", "Play Framework", "plentymarkets", "Podman", "Polymer", "PostgreSQL", "Postfix", "Postman", "Power BI", "PowerBuilder",
