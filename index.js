@@ -1,15 +1,17 @@
+const mainColor = "hsl(210, 84%, 40%)"
+const mainColorLight = "hsl(226.96,48.94%,90.78%)"
 const chipTheme = {
   chip: {
-    background: "#1065bb",
+    background: mainColorLight,
     padding: '0.4em 0.6em',
     fontSize: '1rem',
-    color: 'white',
+    color: mainColor,
     // marginRight: '0.5rem',
     fontFamily: 'Nunito'
   },
   chipRemove: {
     ':hover': {
-      color: 'lightblue',
+      color: 'lightgray',
     },
     marginLeft: '0.5rem'
   }
