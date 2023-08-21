@@ -8,7 +8,7 @@ const chipTheme = {
     color: mainColor,
     // marginRight: '0.5rem',
     fontFamily: 'Nunito'
-  },  chipSelected: {
+  }, chipSelected: {
     background: 'gray',
     color: 'white'
   },
@@ -81,7 +81,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "ABAP", "AJAX", "API", "Apigee", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "AlpineJS", "Alteryx", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
   "Apache HTTP Server", "Apollo", "ArangoDB", "Architect", "ArchiMate", "Arduino", "ArgoCD", "Aruba", "asyncio", "Asterisk", "Atlassian", "Attraqt", "Avaloq", "AUTOSAR", "Azure", "Babel", "Bazel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "trix24", "BiZZdesign", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "BrightScript", "BrowserStack", "Bubble", "Business Intelligence", "B&R Automation Studio",
-  "C", "C#", "C++", "CAFM", "CakePHP", "Camunda", "CAN", "CI/CD", "Citrix", "ClickUp", "Cloud", "CloudWatch", "CMMS", "CMS", "CodeIgniter", "Cosmos DB", "Craft CMS", "Cryptography", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "CheckMK",
+  "C", "C#", "C++", "CAFM", "CakePHP", "Camunda", "CAN", "CI/CD", "Citrix", "ClickUp", "Cloud", "CloudWatch", "CMMS", "CMS", "COBOL", "CodeIgniter", "Cosmos DB", "Craft CMS", "Cryptography", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "CheckMK",
   "Cisco", "Clojure", "Cloud Foundry", "ColdFusion", "Composer", "Computer Vision", "Confluence", "Cordova", "CRM", "CTO", "Cubeware", "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "DMS", "Dagger",
   "DApps", "Dapper", "Dart", "Data-Engineer", "Data-Science", "Data Vault", "Data Warehouse", "Datadog", "Delphi", "DevExpress", "DevSecOps", "DevOps", "Django", "Docker", "Doctrine", "Drupal", "Dynatrace", "E2E", "EAM",
   "EC2", "ECMAScript", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout", "ElasticSearch", "Electron", "Elixir", "Elm", "Embedded", "Embedded WebServer", "Ember", "ERP",
@@ -90,7 +90,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Grafana", "GraphQL", "Graph Database", "Graphite", "Graylog", "Groovy", "Grunt", "GUI Programming", "Gulp", "H2", "Hadoop", "Handlebars", "Hardware", "HSM", "HTTP", "HTML5", "Haskell", "Helm", "Heroku",
   "Hibernate", "Hive", "HL7", "IAM", "IBM", "IBM Db2", "IBM Mainframe", "IBM Spectrum", "IBM WebSphere", "ICT", "IaaS", "Icinga", "IdentityIQ", "IDoc", "Indesign", "InfiniBand",
   "Infor LN", "Informatica", "Instana", "Integromat", "IntelliJ", "InVision", "Ionic", "IoT", "Istio", "ISTQB", "IT Support", "ITIL", "Jackson", "JAXB", "JBoss", "JFrog", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JVM", "JUnit",
-  "Jupyter", "JTA", "JWT", "Jasmine", "Java", "Java EE", "JavaFX", "JavaScript", "Jenkins", "Jest", "Jitsi", "JMeter", "K2", "KIS", "KVM", "Kafka", "Kanban", "Karma",
+  "Jupyter", "JTA", "JWT", "Jasmine", "Java", "Java EE", "JavaFX", "JavaScript", "Jenkins", "Jest", "Jitsi", "JMeter", "Julia", "K2", "KIS", "KVM", "Kafka", "Kanban", "Karma",
   "Keras", "Kibana", "Kotlin", "Kubernetes", "LAN", "LDAP", "LESS", "LIS", "Laravel", "Leaflet", "Linux", "Liquibase", "LLVM", "Load Balancing", "Looker", "LXC",
   "LWC", "MPLS", "MS-SQL", "macOS", "MacBook", "Machine Learning", "Magento", "MariaDB", "Marketing", "Marvel", "Material UI", "Matlab", "Matrix", "Maven", "MediaWiki",
   "Mesos", "Meteor", "Microsoft 365", "Microsoft BizTalk Server", "Microsoft Dynamics 365 BC", "Microsoft Dynamics 365 CRM", "Microsoft Dynamics 365 NAV", "Microsoft Intune", "Microsoft Power Platform", "Mocha", "MuleSoft",
@@ -110,6 +110,20 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Visual Paradigm", "Visual Studio", "VS Code", "Vue", "Vuetify", "WAF", "WLAN", "WPF", "Web3", "WebAssembly", "WebGL", "Webpack", "WebServices", "Websphere", "Web", "Webflow", "Windows",
   "Windows Forms", "Wix", "WordPress", "Xcode", "Xdebug", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zabbix", "Zapier", "Zend", "Zendesk", "Zeplin", "ZooKeeper",
   "dbt", "gRPC", "iOS", "jQuery", "microservices", "numpy", "opencv", "pandas", "pytest", "styled-components"]
+
+const urlTechTags = ["3D", "ABAP", "AEM", "AWS", "Abacus", "ActiveMQ", "Airflow", "Android", "Angular", "Ansible", "API", "Azure", "Backend", "Bash",
+  "Bootstrap", "Business Intelligence", "CSS", "CakePHP", "Camunda", "Cassandra", "Cisco", "Citrix", "Clojure", "Cloud", "COBOL", "Computer Vision",
+  "Confluence", "Cordova", "CRM", "Cucumber", "Cypress", "D3", "Dagger", "Dart", "Django", "Docker", "Drupal", "ERP", "ETL", "Eclipse", "ElasticSearch",
+  "Electron", "Elixir", "Embedded", "Ember", "Erlang", "ExpressJS", "Ethereum", "FPGA", "Figma", "Firebase", "Flask", "Flutter", "Frontend", "Fullstack",
+  "GCP", "GIS", "Gatsby", "Genesys", "Git", "Gradle", "Grafana", "GraphQL", "Groovy", "Hadoop", "HTML5", "Haskell", "Hibernate", "IAM", "IBM", "ICT",
+  "iOS", "IT Support", "IoT", "Ionic", "JIRA", "JPA", "JSON", "JSP", "Julia", "Kafka", "Kotlin", "Kubernetes", "LESS", "Laravel", "Linux", "MacBook",
+  "Magento", "MariaDB", "Matlab", "Maven", "Meteor", "Microsoft Dynamics 365 CRM", "MongoDB", "MySQL", "Network", "NextJS", "NoSQL", "NodeJS", "NuxtJS",
+  "OSS", "Objective-C", "OpenGL", "OpenShift", "OpenStack", "Oracle", "PL SQL", "PaaS", "Phoenix", "Pimcore", "Play Framework", "Polymer", "PostgreSQL",
+  "Power BI", "PowerShell", "Product Owner", "Product Manager", "Project Manager", "Prometheus", "Puppet", "Rails", "React", "Redux", "SAML", "SQL",
+  "SailsJS", "Salesforce", "Scala", "Selenium", "Sentry", "Serverless", "ServiceNow", "SharePoint", "Sketch", "Snowflake", "Solidity", "Solr", "Sonar",
+  "Spark", "Splunk", "Spring", "Spring Boot", "Svelte", "Swagger", "Swift", "Swing", "Symfony", "TYPO3", "Tableau", "Teamcity", "TensorFlow", "Terraform",
+  "TypeScript", "UiPath", "Uniface", "Unity", "Unix", "Unreal", "VBA", "VR", "Vaadin", "Vagrant", "Veeam", "Visual Studio", "Vue", "WAF", "WPF", "Web",
+  "Web3", "WebGL", "Webpack", "Windows", "WordPress", "XML", "Xamarin", "Yarn", "Zend", "ZooKeeper", "gRPC", "jQuery", "microservices", "strapi"]
 
 const perkTags = ["4 weeks vacation", "35-hour work week", "40-hour work week", "42-hour work week", "45-hour work week", "5 weeks vacation", "6 weeks vacation",
   "Accident insurance", "AC cooler", "Annual company retreat", "Beer", "Bonus pay", "Career paths and annual reviews", "Childcare support", "Choose your hardware", "Coffee, tea", "Collective wage agreement", "Company parking", "Company workshops and knowledge sharing",
@@ -622,6 +636,7 @@ const extractPerksFrom = (jobForm, perkTags, companyData) => {
 
 module.exports = {
   techTags,
+  urlTechTags,
   perkTags,
   perkTagsTranslated,
   siteSpecificPerkTagsTranslated,
