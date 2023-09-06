@@ -104,7 +104,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "SailsJS", "Salesforce", "Scala", "Security", "Sensor Fusion", "SMB", "Selenium", "Sentry", "Serverless", "ServiceNow", "SharePoint", "Shopware",
   "Shopify", "Siebel", "SignalR", "Sitecore", "Sketch", "Slack", "Smart-Cards", "Snowflake", "Solidity", "Solr", "Sonar", "Spark", "SpecFlow", "Splunk", "Spring", "Spring Boot", "Spryker", "SSAS", "SSIS", "SVN", "Statamic", "Storybook",
   "strapi", "STM32CubeIDE", "Svelte", "Swagger", "Swift", "Swing", "Symfony", "System Engineer", "SystemVerilog", "Tableau", "TailwindCSS", "Talend", "TCP/IP", "TDD", "TIBCO", "TOGAF", "TM1", "TMap", "TSQL", "TYPO3",
-  "Teamcity", "TensorFlow", "Terraform", "Three.js", "Tomcat", "Tosca", "TypeDB", "TypeQL", "TypeScript", "Twig", "TwinCAT", "UML", "Ubuntu", "UIKit", "UiPath", "Umbraco", "Uniface", "Unix",
+  "Teamcity", "Telerik", "TensorFlow", "Terraform", "Three.js", "Tomcat", "Tosca", "TypeDB", "TypeQL", "TypeScript", "Twig", "TwinCAT", "UML", "Ubuntu", "UIKit", "UiPath", "Umbraco", "Uniface", "Unix",
   "Unity", "Unreal", "UVM", "UX UI Design", "VBA", "VPN", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Verilog", "Vertx", "VHDL", "Video Streaming", "Visual Basic",
   "Visual Paradigm", "Visual Studio", "VS Code", "Vue", "Vuetify", "WAF", "WLAN", "WPF", "Web3", "WebAssembly", "WebGL", "Webpack", "WebServices", "Websphere", "Web", "Webflow", "Windows",
   "Windows Forms", "Wix", "WordPress", "Xcode", "Xdebug", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zabbix", "Zapier", "Zend", "Zendesk", "Zeplin", "ZooKeeper",
