@@ -606,6 +606,7 @@ const extractTechTagsFromStringArray = (stringsToTest, techTags) => {
   foundTechTags.delete("CAN")
   foundTechTags.delete("R")
   foundTechTags.delete("C")
+  foundTechTags.delete("UVM")
 
   return foundTechTags
 }
