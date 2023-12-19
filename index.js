@@ -84,7 +84,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Cisco", "Clojure", "Cloud Foundry", "ColdFusion", "Composer", "Computer Vision", "Confluence", "Cordova", "CRM", "CST Studio Suite", "CTO", "Cubeware", "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "DMS", "Dagger",
   "DApps", "Dapper", "Dart", "Data-Engineer", "Data-Science", "Data Vault", "Data Warehouse", "Datadog", "Delphi", "DevExpress", "DevSecOps", "DevOps", "Django", "Docker", "Doctrine", "Drupal", "Dynatrace", "E2E", "EAM",
   "EC2", "ECMAScript", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout", "ElasticSearch", "Electron", "Elixir", "Elm", "Embedded", "Embedded WebServer", "Ember", "ERP",
-  "EPCIS", "Erlang", "Exasol", "ExpressJS", "ESLint", "EtherCAT", "Ethereum", "Ethernet", "F#", "FaaS", "FPGA", "Fastlane", "Figma", "Firebase", "Firewall", "Firmware", "Fivetran", "Foreman", "Fortran", "FortiGate", "Flask",
+  "EPCIS", "Erlang", "Exasol", "ExpressJS", "ESLint", "EtherCAT", "Ethereum", "Ethernet", "F#", "FaaS", "FPGA", "FastAPI", "Fastlane", "Figma", "Firebase", "Firewall", "Firmware", "Fivetran", "Foreman", "Fortran", "FortiGate", "Flask",
   "Flexray", "Flink", "Flowable", "Flutter", "FreeRTOS", "Frontend", "Fullstack", "GameDev", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "GitHub", "GitLab", "GitOps", "Golang", "Gradle",
   "Grafana", "GraphQL", "Graph Database", "Graphite", "Graylog", "Groovy", "Grunt", "GUI Programming", "Gulp", "H2", "Hadoop", "Handlebars", "Hardware", "HSM", "HTTP", "HTML5", "Haskell", "Helm", "Heroku",
   "Hibernate", "Hive", "HL7", "HyperLynx", "IAM", "IBM", "IBM Db2", "IBM Mainframe", "IBM Spectrum", "IBM WebSphere", "ICT", "IaaS", "Icinga", "IdentityIQ", "IDoc", "Indesign", "InfiniBand",
