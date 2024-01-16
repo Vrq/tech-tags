@@ -566,6 +566,8 @@ const extractTechTagsFrom = (jobForm, techTags) => {
   foundTechTags.delete("CAN")
   foundTechTags.delete("R")
   foundTechTags.delete("C")
+  foundTechTags.delete("UVM")
+  foundTechTags.delete("H2")
   return [...foundTechTags]
 }
 
@@ -607,6 +609,7 @@ const extractTechTagsFromStringArray = (stringsToTest, techTags) => {
   foundTechTags.delete("R")
   foundTechTags.delete("C")
   foundTechTags.delete("UVM")
+  foundTechTags.delete("H2")
 
   return foundTechTags
 }
