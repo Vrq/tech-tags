@@ -95,7 +95,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Mesos", "Meteor", "Microsoft 365", "Microsoft BizTalk Server", "Microsoft Dynamics 365 BC", "Microsoft Dynamics 365 CRM", "Microsoft Dynamics 365 NAV", "Microsoft Intune", "Microsoft Power Platform", "Mocha", "MuleSoft",
   "Mustache", "Mobile", "MongoDB", "mongoose", "Motoko", "MS Teams", "MQTT", "MVC", "MVVM", "MySQL", "multi-GbE", "NAT", "NATS", "Neo4J", "Neos", "NestJS", "Network", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NgRx", "NHibernate",
   "NodeJS", "NoSQL", "NPM", "NuxtJS", "ODI", "OSS", "OWASP", "Objective-C", "OAuth", "OCaml", "Odoo", "Office 365", "OOP", "Open-E JovianDSS", "OpenAPI", "OpenGL", "OpenID",
-  "OpenLayers", "OpenShift", "OpenStack", "OpenTripPlanner", "Oracle", "PACS", "PCIe", "PHP", "PhpStorm", "PHPUnit",
+  "OpenLayers", "OpenShift", "OpenStack", "OpenTripPlanner", "Oracle", "OutSystems", "PACS", "PCIe", "PHP", "PhpStorm", "PHPUnit",
   "PL SQL", "PLC", "PWA", "PaaS", "Pacemaker", "PagerDuty", "Pardot", "Perl", "Phoenix", "Pimcore", "Play Framework", "plentymarkets", "Podman", "Polymer", "PostgreSQL", "Postfix", "Postman", "Power BI", "PowerBuilder",
   "PowerShell", "PrestaShop", "Prisma", "proALPHA", "Prometheus", "Product Manager", "Product Owner", "Progress OpenEdge", "Profibus", "Profinet", "Project Manager", "Protractor", "Puppet", "PyTorch", "Python", "PySpark",
   "QA Testing", "QEMU", "Quobyte", "Qt", "Quarkus", "R", "RDF", "RDMA", "REST", "ReSharper", "RBAC", "RHEL", "RIS", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React",
