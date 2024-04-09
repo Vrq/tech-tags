@@ -91,7 +91,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Infor LN", "Informatica", "Instana", "Integromat", "IntelliJ", "InVision", "Ionic", "IoT", "Istio", "ISTQB", "Support", "ITIL", "Jackson", "JAXB", "JBoss", "JFrog", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JVM", "JUnit",
   "Jupyter", "JTA", "JWT", "Jasmine", "Java", "Java EE", "JavaFX", "JavaScript", "Jenkins", "Jest", "Jitsi", "JMeter", "Julia", "K2", "KIS", "KVM", "Kafka", "Kanban", "Karma",
   "Keras", "Kibana", "Kotlin", "Ktor", "Kubeflow", "Kubernetes", "LAN", "LDAP", "LESS", "LIS", "Laravel", "Leaflet", "Linux", "Liquibase", "LLVM", "Load Balancing", "Looker", "LXC",
-  "LWC", "LVDS", "MPLS", "MS-SQL", "macOS", "MacBook", "Machine Learning", "Magento", "MariaDB", "Marketing", "Marvel", "Material UI", "Matlab", "Matrix", "Maven", "MediaWiki",
+  "LWC", "LVDS", "MPLS", "MS-SQL", "macOS", "MacBook", "Machine Learning", "Magento", "MariaDB", "Marketing", "Marvel", "Material UI", "Matlab", "Matrix", "Maven", "MediaWiki", "Mendix", 
   "Mesos", "Meteor", "Microsoft 365", "Microsoft BizTalk Server", "Microsoft Dynamics 365 BC", "Microsoft Dynamics 365 CRM", "Microsoft Dynamics 365 NAV", "Microsoft Intune", "Microsoft Power Platform", "Mocha", "MuleSoft",
   "Mustache", "Mobile", "MongoDB", "mongoose", "Motoko", "MS Teams", "MQTT", "MVC", "MVVM", "MySQL", "multi-GbE", "NAT", "NATS", "Neo4J", "Neos", "NestJS", "Network", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NgRx", "NHibernate",
   "NodeJS", "NoSQL", "NPM", "NuxtJS", "ODI", "OSS", "OWASP", "Objective-C", "OAuth", "OCaml", "Odoo", "Office 365", "OOP", "Open-E JovianDSS", "OpenAPI", "OpenGL", "OpenID",
