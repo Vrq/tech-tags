@@ -101,7 +101,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "QA Testing", "QEMU", "Quobyte", "Qt", "Quant", "Quarkus", "R", "RAD-NeRF", "RDF", "RDMA", "REST", "ReSharper", "RBAC", "RHEL", "RIS", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React",
   "React Native", "ReactiveX", "Redgate", "Redis", "Redux", "RevPi", "Robot Framework", "Robotics", "Roku", "RS-485", "Ruby", "Rust", "RxJava", "RxJs", "RxSwift", "S4HANA", "SAML", "SAP", "SAPUI5",
   "SAP Analytics Designer", "SAP Commerce", "SAP Crystal Reports", "SAP CS", "SAP EWM", "SAP FICO", "SAP Fiori", "SAP Lumira", "SAP MM", "SAP PM", "SAP QM", "SAP Web Intelligence", "SAS", "SASS", "SCSS", "SDWAN", "SEV", "SGX", "SOAP", "SPS", "SQL", "SQLite",
-  "SailsJS", "Salesforce", "Scala", "Security", "Sensor Fusion", "SMB", "Selenium", "Sentry", "Serverless", "ServiceNow", "SharePoint", "Shopware",
+  "Sage", "SailsJS", "Salesforce", "Scala", "Security", "Sensor Fusion", "SMB", "Selenium", "Sentry", "Serverless", "ServiceNow", "SharePoint", "Shopware",
   "Shopify", "Siebel", "SignalR", "Sitecore", "Sketch", "Slack", "Smart-Cards", "Snowflake", "Snowplow", "Solidity", "Solr", "Sonar", "Spark", "SpecFlow", "SPICE", "Splunk", "Spring", "Spring Boot", "Spryker", "SSAS", "SSIS", "SVN", "Statamic", "Storybook",
   "strapi", "STM32CubeIDE", "Svelte", "Swagger", "Swift", "Swing", "Symfony", "System Engineer", "SystemVerilog", "Tableau", "TailwindCSS", "Talend", "TCP/IP", "TDD", "TIBCO", "TOGAF", "TM1", "TMap", "TSQL", "TYPO3",
   "Teamcity", "Telerik", "TensorFlow", "Terraform", "ThreeJS", "Tomcat", "Tosca", "TypeDB", "TypeQL", "TypeScript", "Twig", "TwinCAT", "UML", "Ubuntu", "UIKit", "UiPath", "Umbraco", "Uniface", "Unix",
