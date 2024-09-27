@@ -80,7 +80,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "ABAP", "AJAX", "API", "Apigee", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "AlpineJS", "Alteryx", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
   "Apache HTTP Server", "Apollo", "ArangoDB", "Architect", "ArchiMate", "Arduino", "ArgoCD", "Aruba", "asyncio", "Asterisk", "Atlassian", "Attraqt", "Avaloq", "AUTOSAR", "Azure", "Babel", "Bazel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "trix24", "BiZZdesign", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "BrightScript", "BrowserStack", "Bubble", "Business Intelligence", "B&R Automation Studio",
-  "C", "C#", "C++", "CAFM", "CakePHP", "Camunda", "CAN", "ChatGPT", "CI/CD", "Citrix", "ClickUp", "Cloud", "CloudWatch", "CMMS", "CML", "CMS", "COBOL", "CockroachDB", "CodeIgniter", "Cosmos DB", "Craft CMS", "Cryptography", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "CheckMK",
+  "C", "C#", "C++", "CAFM", "CakePHP", "Camunda", "CAN", "ChatGPT", "CI/CD", "Citrix", "ClickHouse", "ClickUp", "Cloud", "CloudWatch", "CMMS", "CML", "CMS", "COBOL", "CockroachDB", "CodeIgniter", "Cosmos DB", "Craft CMS", "Cryptography", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Ceph", "CheckMK",
   "Cisco", "Clojure", "Cloud Foundry", "ColdFusion", "Composer", "Computer Vision", "Confluence", "Cordova", "CRM", "CST Studio Suite", "CTO", "Cubeware", "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "DMS", "Dagger",
   "DApps", "Dapper", "Dart", "Data-Engineer", "Data-Science", "Data Vault", "Data Warehouse", "Datadog", "Debian", "Delphi", "DevExpress", "DevSecOps", "DevOps", "Django", "Docker", "Doctrine", "Drupal", "Dynatrace", "E2E", "EAM",
   "EC2", "ECMAScript", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout", "ElasticSearch", "Electron", "Elixir", "Elm", "Embedded", "Embedded WebServer", "Ember", "ERP",
@@ -110,19 +110,19 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Windows Forms", "Wix", "WordPress", "Xcode", "Xdebug", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zabbix", "Zapier", "Zend", "Zendesk", "Zeplin", "ZooKeeper",
   "dbt", "gRPC", "iOS", "jQuery", "microservices", "numpy", "opencv", "pandas", "pytest", "styled-components"]
 
-const urlTechTags = ["3D", "ABAP", "AEM", "AWS", "Abacus", "ActiveMQ", "Airflow", "Android", "Angular", "Ansible", "API", "Azure", "Backend", "Bash",
+const urlTechTags = ["3D", "ABAP", "AEM", "AWS", "Android", "Angular", "Ansible", "API", "Azure", "Backend", "Bash",
   "Bootstrap", "Business Intelligence", "CSS", "CakePHP", "Camunda", "Cassandra", "Cisco", "Citrix", "Clojure", "Cloud", "COBOL", "Computer Vision",
-  "Confluence", "Cordova", "CRM", "Cucumber", "Cypress", "D3", "Dagger", "Dart", "Django", "Docker", "Drupal", "ERP", "ETL", "Eclipse", "ElasticSearch",
+  "CRM", "Cypress", "D3", "Dart", "Django", "Docker", "Drupal", "ERP", "ETL", "Eclipse", "ElasticSearch",
   "Electron", "Elixir", "Embedded", "Ember", "Erlang", "ExpressJS", "Ethereum", "FPGA", "Figma", "Firebase", "Flask", "Flutter", "Frontend", "Fullstack",
-  "GCP", "GIS", "Gatsby", "Genesys", "Git", "Gradle", "Grafana", "GraphQL", "Groovy", "Hadoop", "HTML5", "Haskell", "Hibernate", "IAM", "IBM", "ICT",
-  "iOS", "IoT", "Ionic", "JIRA", "JPA", "JSON", "JSP", "Julia", "Kafka", "Kotlin", "Kubernetes", "LESS", "Laravel", "Linux", "MacBook",
-  "Magento", "MariaDB", "Matlab", "Maven", "Meteor", "Microsoft Dynamics 365 CRM", "MongoDB", "MySQL", "Network", "NextJS", "NoSQL", "NodeJS", "NuxtJS",
-  "OSS", "Objective-C", "OpenGL", "OpenShift", "OpenStack", "Oracle", "PL SQL", "PaaS", "Phoenix", "Pimcore", "Play Framework", "Polymer", "PostgreSQL",
+  "GCP", "GIS", "Gatsby", "Genesys", "Git", "Grafana", "GraphQL", "Groovy", "Hadoop", "HTML5", "Haskell", "Hibernate", "IAM", "IBM", "ICT",
+  "iOS", "IoT", "Ionic", "JIRA", "JSON", "JSP", "Julia", "Kafka", "Kotlin", "Kubernetes", "Laravel", "Linux", "MacBook",
+  "Magento", "MariaDB", "Matlab", "Meteor", "Microsoft Dynamics 365 CRM", "MongoDB", "MySQL", "Network", "NextJS", "NoSQL", "NodeJS", "NuxtJS",
+  "Objective-C", "OpenGL", "OpenShift", "OpenStack", "Oracle", "PL SQL", "Phoenix", "Pimcore", "PostgreSQL",
   "Power BI", "PowerShell", "Product Owner", "Product Manager", "Project Manager", "Prometheus", "Puppet", "Rails", "React", "Redux", "SAML", "SQL",
-  "SailsJS", "Salesforce", "Scala", "Selenium", "Sentry", "Serverless", "ServiceNow", "SharePoint", "Sketch", "Snowflake", "Solidity", "Solr", "Sonar",
-  "Spark", "Splunk", "Spring", "Spring Boot", "Svelte", "Swagger", "Swift", "Swing", "Symfony", "TYPO3", "Tableau", "Teamcity", "TensorFlow", "Terraform",
-  "TypeScript", "UiPath", "Uniface", "Unity", "Unix", "Unreal", "VBA", "VR", "Vaadin", "Vagrant", "Veeam", "Visual Studio", "Vue", "WAF", "WPF", "Web",
-  "Web3", "WebGL", "Webpack", "Windows", "WordPress", "XML", "Xamarin", "Yarn", "Zend", "ZooKeeper", "gRPC", "jQuery", "microservices", "strapi"]
+  "Salesforce", "Scala", "Selenium", "Sentry", "Serverless", "ServiceNow", "SharePoint", "Snowflake", "Solidity", "Solr", "Sonar",
+  "Spark", "Splunk", "Spring", "Spring Boot", "Svelte", "Swagger", "Swift", "Swing", "Symfony", "TYPO3", "Tableau", "TensorFlow", "Terraform",
+  "TypeScript", "UiPath", "Uniface", "Unity", "Unix", "Unreal", "VBA", "VR", "Vaadin", "Veeam", "Visual Studio", "Vue", "WPF", "Web",
+  "Web3", "WebGL", "Windows", "WordPress", "XML", "Xamarin", "Zend", "gRPC", "jQuery", "microservices", "strapi"]
 
 const perkTags = ["4 weeks vacation", "35-hour work week", "40-hour work week", "42-hour work week", "45-hour work week", "5 weeks vacation", "6 weeks vacation",
   "Accident insurance", "AC cooler", "Annual company retreat", "Beer", "Bonus pay", "Career paths and annual reviews", "Childcare support", "Choose your hardware", "Coffee, tea", "Collective wage agreement", "Company parking", "Company workshops and knowledge sharing",
