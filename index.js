@@ -87,7 +87,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "EPCIS", "Erlang", "Exasol", "Exposed", "ExpressJS", "ESLint", "EtherCAT", "Ethereum", "Ethernet", "F#", "FaaS", "FPGA", "FastAPI", "Fastlane", "Figma", "FileMaker", "Firebase", "Firewall", "Firmware", "Fivetran", "Foreman", "Fortran", "FortiGate", "Flask",
   "Flexray", "Flink", "Flowable", "Flutter", "Flyway", "FreeRTOS", "Frontend", "Fullstack", "GameDev", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "GitHub", "GitLab", "GitOps", "Golang", "Gradle",
   "Grafana", "GraphQL", "Graph Database", "Graphite", "Graylog", "Groovy", "Grunt", "GUI Programming", "Gulp", "H2", "Hadoop", "Handlebars", "Hardware", "HSM", "HTTP", "HTML5", "Haskell", "Helm", "Heroku",
-  "Hibernate", "Hive", "HL7", "HyperLynx", "IAM", "IBM", "IBM Db2", "IBM Mainframe", "IBM Spectrum", "IBM WebSphere", "ICT", "IaaS", "Icinga", "IdentityIQ", "IDoc", "Indesign", "InfiniBand",
+  "Hibernate", "Hive", "HL7", "HyperLynx", "Hyper-V", "IAM", "IBM", "IBM Db2", "IBM Mainframe", "IBM Spectrum", "IBM WebSphere", "ICT", "IaaS", "Icinga", "IdentityIQ", "IDoc", "Indesign", "InfiniBand",
   "Infor LN", "Informatica", "Instana", "Integromat", "IntelliJ", "InVision", "Ionic", "IoT", "Istio", "ISTQB", "Support", "ITIL", "Jackson", "JAXB", "JBoss", "JFrog", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JVM", "JUnit",
   "Jupyter", "JTA", "JWT", "Jasmine", "Java", "Java EE", "JavaFX", "JavaScript", "Jenkins", "Jest", "Jitsi", "JMeter", "Julia", "K2", "KIS", "KVM", "Kafka", "Kanban", "Karma",
   "Keras", "Kibana", "Kotlin", "Ktor", "Kubeflow", "Kubernetes", "LAN", "LDAP", "LESS", "LIS", "Laravel", "Leaflet", "Linux", "Liquibase", "LLVM", "Load Balancing", "Looker", "LXC",
