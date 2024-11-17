@@ -115,7 +115,7 @@ const urlTechTags = ["3D", "ABAP", "AEM", "AWS", "Android", "Angular", "Ansible"
   "CRM", "Cypress", "D3", "Dart", "Django", "Docker", "Drupal", "ERP", "ETL", "Eclipse", "ElasticSearch",
   "Electron", "Elixir", "Embedded", "Ember", "Erlang", "ExpressJS", "Ethereum", "FPGA", "Figma", "Firebase", "Flask", "Flutter", "Frontend", "Fullstack",
   "GCP", "GIS", "Gatsby", "Genesys", "Git", "Grafana", "GraphQL", "Groovy", "Hadoop", "HTML5", "Haskell", "Hibernate", "IAM", "IBM", "ICT",
-  "iOS", "IoT", "Ionic", "JIRA", "JSON", "JSP", "Julia", "Kafka", "Kotlin", "Kubernetes", "Laravel", "Linux", "MacBook",
+  "iOS", "IoT", "Ionic", "JIRA", "JSON", "JSP", "Julia", "Kafka", "Kotlin", "Kubernetes", "Laravel", "Linux", "macOS",
   "Magento", "MariaDB", "Matlab", "Meteor", "Microsoft Dynamics 365 CRM", "MongoDB", "MySQL", "Network", "NextJS", "NoSQL", "NodeJS", "NuxtJS",
   "Objective-C", "OpenGL", "OpenShift", "OpenStack", "Oracle", "PL SQL", "Phoenix", "Pimcore", "PostgreSQL",
   "Power BI", "PowerShell", "Product Owner", "Product Manager", "Project Manager", "Prometheus", "Puppet", "Rails", "React", "Redux", "SAML", "SQL",
