@@ -76,7 +76,7 @@ const theme = {
   }
 }
 
-const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "Airflow", "Airtable", "Akeneo", "Altium Designer", "Amazon DocumentDB",
+const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "AI", "Airflow", "Airtable", "Akeneo", "Altium Designer", "Amazon DocumentDB",
   "ABAP", "AJAX", "API", "Apigee", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "AlpineJS", "Alteryx", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
   "Apache HTTP Server", "Apollo", "ArangoDB", "Architect", "ArchiMate", "Arduino", "ArgoCD", "Aruba", "asyncio", "Asterisk", "Atlassian", "Attraqt", "Avaloq", "AUTOSAR", "Azure", "Babel", "Bazel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "trix24", "BiZZdesign", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "BrightScript", "BrowserStack", "Bubble", "Business Intelligence", "B&R Automation Studio",
@@ -90,7 +90,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Hibernate", "Hive", "HL7", "HyperLynx", "Hyper-V", "IAM", "IBM", "IBM Db2", "IBM Mainframe", "IBM Spectrum", "IBM WebSphere", "ICT", "IaaS", "Icinga", "IdentityIQ", "IDoc", "Indesign", "InfiniBand",
   "Infor LN", "Informatica", "Instana", "Integromat", "IntelliJ", "InVision", "Ionic", "IoT", "Istio", "ISTQB", "Support", "ITIL", "Jackson", "JAXB", "JBoss", "JFrog", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JVM", "JUnit",
   "Jupyter", "JTA", "JWT", "Jasmine", "Java", "Java EE", "JavaFX", "JavaScript", "Jenkins", "Jest", "Jitsi", "JMeter", "Julia", "K2", "KIS", "KVM", "Kafka", "Kanban", "Karma",
-  "Keras", "Kibana", "Kotlin", "Ktor", "Kubeflow", "Kubernetes", "LAN", "LDAP", "LESS", "LIS", "Laravel", "Leaflet", "Linux", "Liquibase", "LLVM", "Load Balancing", "Looker", "LXC",
+  "Keras", "Kibana", "Kotlin", "Ktor", "Kubeflow", "Kubernetes", "LAN", "LDAP", "LESS", "LIS", "LLM", "Laravel", "Leaflet", "Linux", "Liquibase", "LLVM", "Load Balancing", "Looker", "LXC",
   "LWC", "LVDS", "MPLS", "MS-SQL", "macOS", "MacBook", "Machine Learning", "Magento", "MariaDB", "Marketing", "Marvel", "Material UI", "Matlab", "Matrix", "Maven", "MediaWiki", "Mendix",
   "Mesos", "Meteor", "Microsoft 365", "Microsoft BizTalk Server", "Microsoft Dynamics 365 BC", "Microsoft Dynamics 365 CRM", "Microsoft Dynamics 365 NAV", "Microsoft Intune", "Microsoft Power Platform", "Mocha", "MuleSoft",
   "Mustache", "Mobile", "MongoDB", "mongoose", "Motoko", "MS Teams", "MQTT", "MVC", "MVVM", "MySQL", "multi-GbE", "NAT", "NATS", "Neo4J", "Neos", "NestJS", "Network", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NgRx", "NHibernate",
