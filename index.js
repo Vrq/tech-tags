@@ -98,7 +98,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "OpenLayers", "OpenShift", "OpenStack", "OpenTripPlanner", "Oracle", "OutSystems", "PACS", "PCIe", "PHP", "PhpStorm", "PHPUnit",
   "PL SQL", "PLC", "PWA", "PaaS", "Pacemaker", "PagerDuty", "Pardot", "Perl", "Phoenix", "Pimcore", "Play Framework", "plentymarkets", "Podman", "Polymer", "PostgreSQL", "Postfix", "Postman", "Power BI", "PowerBuilder",
   "PowerShell", "PrestaShop", "Prisma", "proALPHA", "Process Mining", "Prometheus", "Product Manager", "Product Owner", "Progress OpenEdge", "Profibus", "Profinet", "Project Manager", "Protractor", "Puppet", "PyTorch", "Python", "PySpark",
-  "QA Testing", "QEMU", "Quobyte", "Qt", "Quant", "Quarkus", "R", "RAD-NeRF", "RDF", "RDMA", "REST", "ReSharper", "RBAC", "RHEL", "RIS", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React",
+  "QA Testing", "QEMU", "Qlik", "Quobyte", "Qt", "Quant", "Quarkus", "R", "RAD-NeRF", "RDF", "RDMA", "REST", "ReSharper", "RBAC", "RHEL", "RIS", "ROS", "RPA", "RSpec", "RabbitMQ", "Rails", "React",
   "React Native", "ReactiveX", "Redgate", "Redis", "Redux", "RevPi", "Robot Framework", "Robotics", "Roku", "RS-485", "Ruby", "Rust", "RxJava", "RxJs", "RxSwift", "S4HANA", "SAML", "SAP", "SAPUI5",
   "SAP Analytics Designer", "SAP Commerce", "SAP Crystal Reports", "SAP CS", "SAP EWM", "SAP FICO", "SAP Fiori", "SAP Lumira", "SAP MM", "SAP PM", "SAP PP", "SAP QM", "SAP Web Intelligence", "SAS", "SASS", "SCSS", "SDWAN", "SEV", "SGX", "SOAP", "SPS", "SQL", "SQLite",
   "Sage", "SailsJS", "Salesforce", "Scala", "Security", "Sensor Fusion", "SMB", "Selenium", "Sentry", "Serverless", "ServiceNow", "SharePoint", "Shopware",
