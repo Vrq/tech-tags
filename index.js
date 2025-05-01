@@ -275,7 +275,7 @@ const perkTagsTranslated = {
     coworkshops: "Workshops und Wissensaustausch",
     conferences: "Konferenzen",
     cooloffice: "Cooles Büro",
-    dentalinsurance: "Zahnversicherung",
+    dentalinsurance: "Zahnzusatzversicherung",
     discounts: "Rabatte für Firmenprodukte oder andere Produkte",
     equity: "Unternehmensaktien",
     extraretirement: "Betriebliche Altersvorsorge",
