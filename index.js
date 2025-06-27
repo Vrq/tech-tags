@@ -77,20 +77,20 @@ const theme = {
 }
 
 const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "AI", "Airflow", "Airtable", "Akeneo", "Altium Designer", "Amazon DocumentDB",
-  "ABAP", "AJAX", "API", "Apigee", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "AlpineJS", "Alteryx", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
+  "ABAP", "AJAX", "Apex", "API", "Apigee", "Appium", "ARM", "ASP.NET", "AWS", "Active Directory", "ActiveMQ", "Airlock", "Akka", "AlpineJS", "Alteryx", "Android", "Angular", "Ansible", "Apache Camel", "Apache CXF",
   "Apache HTTP Server", "Apollo", "ArangoDB", "Architect", "ArchiMate", "Arduino", "ArgoCD", "Aruba", "asyncio", "Asterisk", "Atlassian", "Attraqt", "Avaloq", "AUTOSAR", "Azure", "Babel", "Bazel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "trix24", "BiZZdesign", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "BrightScript", "BrowserStack", "Bubble", "Business Intelligence", "B&R Automation Studio",
   "C", "C#", "C++", "CAFM", "CakePHP", "Camunda", "CAN", "ChatGPT", "CI/CD", "Citrix", "ClickHouse", "ClickUp", "Cloud", "CloudWatch", "CMMS", "CML", "CMS", "COBOL", "CockroachDB", "CodeIgniter", "Cosmos DB", "Craft CMS", "Cryptography", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Celonis", "Ceph", "CheckMK",
   "Cisco", "Clojure", "Cloud Foundry", "ColdFusion", "Composer", "Computer Vision", "Confluence", "Cordova", "CRM", "CST Studio Suite", "CTO", "Cubeware", "Cucumber", "CUDA", "Cypress", "D3", "DDD", "DDN", "DMS", "Dagger",
   "DApps", "Dapper", "Dart", "Data-Engineer", "Data-Science", "Data Vault", "Data Warehouse", "Databricks", "Datadog", "DatoCMS", "Debian", "Delphi", "DevExpress", "DevSecOps", "DevOps", "Django", "Docker", "Doctrine", "Drupal", "Dynatrace", "E2E", "EAM",
   "EC2", "ECMAScript", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout", "ElasticSearch", "Electron", "Elixir", "Elm", "Embedded", "Embedded WebServer", "Ember", "Emscripten", "ERP",
-  "EPCIS", "Erlang", "Exasol", "Exposed", "ExpressJS", "ESLint", "EtherCAT", "Ethereum", "Ethernet", "F#", "FaaS", "FPGA", "FastAPI", "Fastlane", "Figma", "FileMaker", "Firebase", "Firewall", "Firmware", "Fivetran", "Foreman", "Fortran", "FortiGate", "Flask",
+  "EPCIS", "Erlang", "Exasol", "Exposed", "ExpressJS", "ESLint", "EtherCAT", "Ethereum", "Ethernet", "F#", "FaaS", "FPGA", "FastAPI", "Fastlane", "Figma", "FileMaker", "Firebase", "Firewall", "Firmware", "Fivetran", "Foreman", "Fortran", "FortiGate", "Flask", "Flow",
   "Flexray", "Flink", "Flowable", "Flutter", "Flyway", "FreeRTOS", "Frontend", "Fullstack", "GameDev", "Gatsby", "GCP", "Genesys", "GIS", "GNU", "Git", "GitHub", "GitLab", "GitOps", "Golang", "Gradle",
   "Grafana", "GraphQL", "Graph Database", "Graphite", "Graylog", "Groovy", "Grunt", "GUI Programming", "Gulp", "H2", "Hadoop", "Handlebars", "Hardware", "HSM", "HTTP", "HTML5", "Haskell", "Helm", "Heroku",
   "Hibernate", "Hive", "HL7", "HyperLynx", "Hyper-V", "IAM", "IBM", "IBM Db2", "IBM Mainframe", "IBM Spectrum", "IBM WebSphere", "ICT", "IaaS", "Icinga", "IdentityIQ", "IDoc", "Indesign", "InfiniBand",
   "Infor LN", "Informatica", "Instana", "Integromat", "IntelliJ", "InVision", "Ionic", "IoT", "Istio", "ISTQB", "Support", "ITIL", "Jackson", "JAXB", "JBoss", "JFrog", "JHipster", "JIRA", "JPA", "JSON", "JSP", "JVM", "JUnit",
   "Jupyter", "JTA", "JWT", "Jasmine", "Java", "Java EE", "JavaFX", "JavaScript", "Jenkins", "Jest", "Jitsi", "JMeter", "Julia", "K2", "KIS", "KVM", "Kafka", "Kanban", "Karma",
-  "Keras", "Kibana", "Kotlin", "Ktor", "Kubeflow", "Kubernetes", "LAN", "LDAP", "LESS", "LIS", "LLM", "Laravel", "Leaflet", "Linux", "Liquibase", "LLVM", "Load Balancing", "Looker", "LXC",
+  "Keras", "Kibana", "Kotlin", "Ktor", "Kubeflow", "Kubernetes", "LAN", "LDAP", "LESS", "LIS", "LLM", "Laravel", "Leaflet", "Lightning Web Components", "Linux", "Liquibase", "LLVM", "Load Balancing", "Looker", "LXC",
   "LWC", "LVDS", "MPLS", "MS-SQL", "macOS", "MacBook", "Machine Learning", "Magento", "MariaDB", "Marketing", "Marvel", "Material UI", "Matlab", "Matrix", "Maven", "MediaWiki", "Mendix",
   "Mesos", "Meteor", "Microsoft 365", "Microsoft BizTalk Server", "Microsoft Dynamics 365 BC", "Microsoft Dynamics 365 CRM", "Microsoft Dynamics 365 NAV", "Microsoft Intune", "Microsoft Power Platform", "Mocha", "MuleSoft",
   "Mustache", "Mobile", "MongoDB", "mongoose", "Motoko", "MS Teams", "MQTT", "MVC", "MVVM", "MySQL", "multi-GbE", "n8n", "NAT", "NATS", "Neo4J", "Neos", "NestJS", "Network", "NextJS", "Nexus", "NFC", "NFS", "Nginx", "NgRx", "NHibernate",
@@ -106,7 +106,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "strapi", "STM32CubeIDE", "Svelte", "Swagger", "Swift", "Swing", "Symfony", "System Engineer", "SystemVerilog", "Tableau", "TailwindCSS", "Talend", "TCP/IP", "TDD", "TIBCO", "TOGAF", "TM1", "TMap", "TSQL", "TYPO3",
   "Teamcity", "Telerik", "TensorFlow", "Terraform", "ThreeJS", "Tomcat", "Tosca", "TypeDB", "TypeQL", "TypeScript", "Twig", "TwinCAT", "UML", "Ubuntu", "UIKit", "UiPath", "Umbraco", "Uniface", "Unix",
   "Unity", "Unreal", "UVM", "UX UI Design", "VBA", "VPN", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Verilog", "Vertx", "VHDL", "Video Streaming", "Visual Basic",
-  "Visual Paradigm", "Visual Studio", "Vitess", "VS Code", "Vue", "Vuetify", "WAF", "WLAN", "WPF", "Web3", "WebAssembly", "WebGL", "Webpack", "WebServices", "Websphere", "Web", "Webflow", "Windows",
+  "Visual Paradigm", "Visual Studio", "Visualforce", "Vitess", "VS Code", "Vue", "Vuetify", "WAF", "WLAN", "WPF", "Web3", "WebAssembly", "WebGL", "Webpack", "WebServices", "Websphere", "Web", "Webflow", "Windows",
   "Windows Forms", "Wix", "WordPress", "Xcode", "Xdebug", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zabbix", "Zapier", "Zend", "Zendesk", "Zeplin", "ZooKeeper",
   "dbt", "gRPC", "iOS", "jQuery", "microservices", "numpy", "opencv", "pandas", "pytest", "styled-components"]
 
