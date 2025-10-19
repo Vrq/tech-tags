@@ -1,79 +1,62 @@
 const mainColor = "hsl(210, 84%, 40%)"
 const mainColorLight = "hsl(226.96,48.94%,90.78%)"
 const chipTheme = {
-  chip: {
-    background: mainColorLight,
-    padding: '0.2em 0.5em',
-    fontSize: '1rem',
-    color: mainColor,
-    // marginRight: '0.5rem',
-    fontFamily: 'Nunito'
-  }, chipSelected: {
-    background: 'gray',
-    color: 'white'
-  },
-  chipRemove: {
-    ':hover': {
-      color: 'mainColor',
-    },
-    marginLeft: '0.5rem',
-    fontSize: '1.3rem'
-  }
-}
-const theme = {
-  chipsContainer: {
-    display: "flex",
-    position: "relative",
-    border: "1px solid #ccc",
-    backgroundColor: '#fff',
-    minHeight: 34,
-    alignItems: "center",
-    flexWrap: "wrap",
-    padding: "2.5px",
-    borderRadius: 5,
-    ':focus': {
-      border: "1px solid #aaa",
-    }
-  },
-  container: {
-    flex: 1,
-  },
-  containerOpen: {
-
-  },
-  input: {
-    border: 'none',
-    outline: 'none',
-    boxSizing: 'border-box',
-    width: '100%',
-    padding: 5,
-    margin: 2.5
-  },
-  suggestionsContainer: {
-
-  },
-  suggestionsList: {
-    position: 'absolute',
+  control: (provided) => ({
+    ...provided,
+    minHeight: '34px',
     border: '1px solid #ccc',
-    zIndex: 10,
-    left: 0,
-    top: '100%',
-    width: '100%',
     backgroundColor: '#fff',
-    listStyle: 'none',
+    borderRadius: '5px',
+    '&:hover': {
+      borderColor: '#aaa'
+    },
+    boxShadow: 'none',
+    '&:focus': {
+      borderColor: '#aaa'
+    }
+  }),
+  multiValue: (provided) => ({
+    ...provided,
+    backgroundColor: mainColorLight,
+    borderRadius: '4px',
+    padding: '0.2em 0.5em',
+    margin: '2.5px'
+  }),
+  multiValueLabel: (provided) => ({
+    ...provided,
+    color: mainColor,
+    fontSize: '1rem',
+    fontWeight: 'normal',
+    fontFamily: 'Nunito',
     padding: 0,
-    margin: 0,
-    maxHeight: '300px',
-    overflowY: 'scroll'
-  },
-  suggestion: {
-    padding: '0.5em 1em',
-    fontSize: '1rem'
-  },
-  suggestionHighlighted: {
-    background: 'rgba(16, 101, 187, 0.75)',
-    color: 'white'
-  }
+    paddingLeft: 0
+  }),
+  multiValueRemove: (provided) => ({
+    ...provided,
+    color: mainColor,
+    cursor: 'pointer',
+    marginLeft: '0.5rem',
+    fontSize: '1.3rem',
+    '&:hover': {
+      backgroundColor: 'transparent',
+      color: mainColor
+    }
+  }),
+  placeholder: (provided) => ({
+    ...provided,
+    color: '#999',
+    margin: '2.5px',
+    padding: '5px'
+  }),
+  input: (provided) => ({
+    ...provided,
+    margin: '2.5px',
+    padding: '5px'
+  }),
+  valueContainer: (provided) => ({
+    ...provided,
+    padding: '2.5px'
+  })
 }
 
 const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ada", "Adobe CS", "AEM", "AI", "Airflow", "Airtable", "Akeneo", "Altium Designer", "Amazon DocumentDB",
@@ -649,7 +632,6 @@ module.exports = {
   perkTagsTranslated,
   siteSpecificPerkTagsTranslated,
   getPerkTagsWithSiteSpecificTags,
-  theme,
   chipTheme,
   extractTechTagsFrom,
   extractPerksFrom,
