@@ -19,7 +19,6 @@ const chipTheme = {
     ...provided,
     backgroundColor: mainColorLight,
     borderRadius: '4px',
-    padding: '0.2em 0.5em',
     margin: '2.5px'
   }),
   multiValueLabel: (provided) => ({
@@ -28,18 +27,19 @@ const chipTheme = {
     fontSize: '1rem',
     fontWeight: 'normal',
     fontFamily: 'Nunito',
-    padding: 0,
-    paddingLeft: 0
+    padding: '0.4em 0.2em 0.4em 0.8em'
   }),
   multiValueRemove: (provided) => ({
     ...provided,
-    color: mainColor,
+    padding: '0 8px',
     cursor: 'pointer',
-    marginLeft: '0.5rem',
-    fontSize: '1.3rem',
-    '&:hover': {
-      backgroundColor: 'transparent',
-      color: mainColor
+    ':hover': {
+      backgroundColor: '#DE350B',
+      color: 'white'
+    },
+    svg: {
+      width: '18px',
+      height: '18px'
     }
   }),
   placeholder: (provided) => ({
