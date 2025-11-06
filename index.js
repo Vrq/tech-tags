@@ -133,7 +133,14 @@ const siteSpecificPerkTagsTranslated = {
       rekachecks: "Reka Checks",
     }
   },
-  GDJ: null,
+  GDJ: {
+    en: {
+      companybicycle: "JobRad"
+    },
+    de: {
+      companybicycle: "JobRad"
+    }
+  },
   RDJ: {
     en: {
       bookster: "Bookster subscription"
