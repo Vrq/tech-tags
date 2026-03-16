@@ -64,7 +64,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Apache HTTP Server", "Apollo", "ArangoDB", "Architect", "ArchiMate", "Arduino", "ArgoCD", "Aruba", "asyncio", "Asterisk", "Atlassian", "Attraqt", "Avaloq", "AUTOSAR", "Azure", "Babel", "Bazel", "Big Data", "BigQuery", "BIM", "BPMN", "BSD ", "BSI CRM",
   "Backbone", "Backend", "Bamboo", "Bash", "Beanstalk", "BitTalk", "BitBucket", "trix24", "BiZZdesign", "Blazor", "Blockchain", "Bluetooth", "Bootstrap", "BrightScript", "BrowserStack", "Bubble", "bun", "Business Intelligence", "B&R Automation Studio",
   "C", "C#", "C++", "CAFM", "CakePHP", "Camunda", "CAN", "Census", "ChatGPT", "CI/CD", "Citrix", "Claude Code", "ClickHouse", "ClickUp", "Cloud", "CloudWatch", "CMDB", "CMMS", "CML", "CMS", "COBOL", "CockroachDB", "CodeIgniter", "Copilot", "CoreMedia CMS", "Cosmos DB", "Craft CMS",
-  "Cryptography", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "Celonis", "Ceph", "CheckMK",
+  "Cryptography", "CODESYS", "CQRS", "CSS", "Cassandra", "Celery", "CGI", "Celonis", "Ceph", "CheckMK",
   "Cisco", "Clojure", "Cloud Foundry", "ColdFusion", "Composer", "Computer Vision", "Confluence", "Cordova", "CRM", "CST Studio Suite", "CTO", "Cubeware", "Cucumber", "Cursor", "CUDA", "Cypress", "D3", "DDD", "DDN", "DMS", "Dagger",
   "DApps", "Dapper", "Dart", "Data-Engineer", "Data-Science", "Data Vault", "Data Warehouse", "Databricks", "Datadog", "DatoCMS", "DAX", "Debian", "Delphi", "DevExpress", "DevSecOps", "DevOps", "DXP", "Django", "Docker", "Doctrine", "Drupal", "Dynatrace", "E2E", "EAM",
   "EC2", "ECMAScript", "ELK", "ES6", "ESB", "ETL", "Eclipse", "Eclipse Scout", "ElasticSearch", "Electron", "Elixir", "Elm", "Embedded", "Embedded WebServer", "Ember", "Emscripten", "ERP",
@@ -91,7 +91,7 @@ const techTags = [".NET Framework", ".NET MVC", "3D", "Ab Initio", "Abacus", "Ad
   "Teamcity", "Telerik", "TensorFlow", "Terraform", "ThreeJS", "Tomcat", "TopEase", "Tosca", "TypeDB", "TypeQL", "TypeScript", "Twig", "TwinCAT", "UML", "Ubuntu", "UIKit", "UiPath", "Umbraco", "Uniface", "Unix",
   "Unity", "Unreal", "UVM", "UX UI Design", "VBA", "VPN", "VMware", "VR", "Vaadin", "Vagrant", "Veeam", "Verilog", "Vertx", "VHDL", "Video Streaming", "Visual Basic",
   "Visual Paradigm", "Visual Studio", "Visualforce", "Vitess", "VS Code", "Vue", "Vuetify", "WAF", "WLAN", "WPF", "Web3", "WebAssembly", "WebGL", "Webpack", "WebServices", "Websphere", "Web", "Webflow", "Windows", "Windsurf",
-  "Windows Forms", "Wix", "WordPress", "Xcode", "Xdebug", "XML", "XP", "XPath", "XState", "Xamarin", "Yarn", "Zabbix", "Zapier", "Zend", "Zendesk", "Zeplin", "ZooKeeper",
+  "Windows Forms", "Wix", "WordPress", "Xcode", "Xdebug", "XML", "XP", "XPath", "XR", "XState", "Xamarin", "Yarn", "Zabbix", "Zapier", "Zend", "Zendesk", "Zeplin", "ZooKeeper",
   "dbt", "gRPC", "iOS", "jQuery", "microservices", "numpy", "opencv", "pandas", "pytest", "styled-components"]
 
 const urlTechTags = ["3D", "ABAP", "AEM", "AWS", "Android", "Angular", "Ansible", "API", "Azure", "Backend", "Bash",
